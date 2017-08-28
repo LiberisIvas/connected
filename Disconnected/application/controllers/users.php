@@ -9,7 +9,10 @@ class Users extends CI_Controller {
 	public function index()
 	{
 		$this->load->helper('url');
-		$this->load->view('landing_page.php');
+		$this->load->view('Template/navigation_landing');
+		$this->load->view('Template/header');
+		$this->load->view('landing_page');
+		$this->load->view('Template/footer');
 	}
 
 
