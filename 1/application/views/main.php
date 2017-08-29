@@ -39,8 +39,8 @@ var_dump($this->session->all_userdata());
 <h2>Manifest your creativity with others where you connect and make your projects real</h2>
 
 
-<form method="POST" action="">
-<button type="submit" name="register" value="register">Create your account</button>
+<form method="POST" action="Login">
+<button type="submit" name="action" value="register">Create your account</button>
  </form>
 
 

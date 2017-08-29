@@ -9,7 +9,7 @@ class Login extends CI_Controller{
 				$this->check_login();
 				break;
 			case 'register':
-				redirect("register");
+				redirect("/Login/register");
 				break;
 			default:
 				$this->load->view("Template/navigation");
@@ -71,7 +71,9 @@ class Login extends CI_Controller{
 
 
 	public function register (){
+		
 		$this->load->view("register");
+		$this->load->view("Template/footer");
 	}
 
 	public function check_register(){
