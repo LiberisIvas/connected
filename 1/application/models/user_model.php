@@ -27,19 +27,24 @@ class user_model extends CI_Model {
 
     
 
-    public function add_message($new_post){
-            $query = "INSERT INTO posts
-            (users_idusers, post)
-                VALUES (?,?)";
-            return $this->db->query($query, $new_post);
+    public function add_message($new_message){
+            $query = "INSERT INTO messages
+            (id_user, id_recipient, status, text_message, created_at, updated_at)
+                VALUES (?,?,?,?,?,?)";
+            return $this->db->query($query, $new_message);
     }
+    
 
     public function show_category($check){
         
         return $this->db->query( "SELECT * FROM users WHERE category=?",array($check))->result_array();
 
     }
+    public function get_user_profile($check){
+        
+        return $this->db->query( "SELECT * FROM users WHERE idusers=?",array($check))->row_array();
 
+    }
 
 
 

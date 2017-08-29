@@ -1,38 +1,43 @@
 <h1>logged in site</h1>
 
-<h2 class="welcome">Welcome, php tag</h2>
+<?php 
 
 
-<form name="action" method="Post">
+ ?>
+
+<h2 class="welcome">Welcome, <?= $this->session->userdata('loggedin_user')["first_name"]  ?> </h2>
+
+
+<form action="Logged" method="Post">
 	
-	<input type="submit" name="" value="Heads">
+	<input type="submit" name="action" value="Heads">
 </form>
 
 
-<form name="action" method="Post">
+<form action="Logged" method="Post">
 	
-	<input type="submit" name="" value="Hands">
+	<input type="submit" name="action" value="Hands">
 </form>
 
-<form name="action" method="Post">
+<form action="Logged" method="Post">
 	
-	<input type="submit" name="" value="Ears">
-</form>
-
-
-<form name="action" method="Post">
-	
-	<input type="submit" name="" value="Eyes">
+	<input type="submit" name="action" value="Ears">
 </form>
 
 
-<form name="action" method="Post">
+<form action="Logged" method="Post">
 	
-	<input type="submit" name="" value="Body">
+	<input type="submit" name="action" value="Eyes">
 </form>
 
 
-<form name="action" method="Post">
+<form action="Logged" method="Post">
 	
-	<input type="submit" name="" value="Others">
+	<input type="submit" name="action" value="Body">
+</form>
+
+
+<form action="Logged" method="Post">
+	
+	<input type="submit" name="action" value="Others">
 </form>
