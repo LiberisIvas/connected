@@ -88,6 +88,12 @@ class Login extends CI_Controller{
 		$this->form_validation->set_rules('first_name', 'First Name', 'xss_clean|trim|required|max_length[30]');
 		$this->form_validation->set_rules('last_name', 'First Name', 'xss_clean|trim|required|max_length[30]');
 
+		$this->form_validation->set_rules('category', 'Category', 'xss_clean|trim|required|max_length[30]');
+		$this->form_validation->set_rules('look_for', 'Looking for', 'xss_clean|trim|required|max_length[30]');
+		$this->form_validation->set_rules('link', 'Link', 'xss_clean|trim|required|max_length[30]');
+		$this->form_validation->set_rules('story', 'Story', 'xss_clean|trim|required|max_length[30]');
+		$this->form_validation->set_rules('image', 'Image', 'xss_clean|trim|required|max_length[30]');
+
 		$this->form_validation->set_message('is_unique', 'This email already exists');
 
 
@@ -135,7 +141,7 @@ class Login extends CI_Controller{
 
 
     public function success(){
-    	$this->load->view('logged_in');
+    	$this->load->view('users_by_category');
     }
 }	
 
