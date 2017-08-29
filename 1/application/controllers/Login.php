@@ -125,7 +125,7 @@ class Login extends CI_Controller{
 
 
     public function success(){
-    	$this->load->view('success');
+    	$this->load->view('logged_in');
     }
 }	
 
