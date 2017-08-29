@@ -36,7 +36,7 @@ var_dump($this->session->all_userdata());
 	</style>
 	</head>
 
-<body background="http://cdn.wallpapersafari.com/51/86/zSAOXR.jpeg">
+<body>
 
 </h2>
 <div>
