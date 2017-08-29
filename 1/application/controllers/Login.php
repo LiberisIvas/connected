@@ -71,7 +71,8 @@ class Login extends CI_Controller{
 
 
 	public function register (){
-		
+
+		$this->load->view("Template/header");
 		$this->load->view("register");
 		$this->load->view("Template/footer");
 	}

@@ -1,6 +1,8 @@
+<?php echo link_tag('Assets/css/style.css'); ?>
+
 <div class="container">
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="/">Screw</a> <img src="Assets/images/screw.png">
+    <a class="navbar-brand" href="/">Screw</a> <img class="image_screw" alt="screw" src="Assets/images/screw.png">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
