@@ -22,11 +22,11 @@
 		<p><input type="text" name="story" placeholder="write your story"></p>
 		<!-- <p><input type="upload" name="image" ></p>  incase we did it -->
 
-		<input type="hidden" name="submit" value="register">
+	<!-- 	<input type="hidden" name="submit" value="register">
 		<input class="btn_register" type="submit" name="action" value="register">
 
 		
-	</form>
+	</form> -->
 	
 
 </div> -->
@@ -86,7 +86,7 @@
 						<label for="story">Story</label>
 						<input type="text" placeholder="Enter your story here.." class="form-control">
 					</div>
-					<button type="button" class="btn btn-lg btn-info">Submit</button>					
+					<input class="btn_register" type="submit" name="action" value="register">				
 					</div>
 				</form> 
 				</div>
