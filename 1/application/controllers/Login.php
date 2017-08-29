@@ -122,7 +122,7 @@ class Login extends CI_Controller{
         	);
 		     $this->load->model("user_model");
 		     $this->user_model->add_user($values);
-		     $this->session->set_userdata('sucessmsg', 'Thanks for your registration.please Login');
+		     $this->session->set_userdata('sucessmsg', 'Thanks for your registration. <br> please Login');
 		     //$temp["temp"] = $this->session->userdata('successMsg');
 		     $this->load->view("main");
 			
