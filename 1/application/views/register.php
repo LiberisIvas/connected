@@ -3,7 +3,7 @@
 <div class="group">
 	<h3 class="text">* Register *</h3>
 	<h3 class="text"> Please enter your information </h3><hr width="70%"><br>
-	<form action="Login" method="POST">
+	<form action="Login/check_register" method="POST">
 		<p><input type="text" name="first_name" placeholder="First name"></p>
 		<p><input type="text" name="last_name" placeholder="Last name"></p>
 		<p><input type="email" name="email" placeholder="Email" placeholder="Your Email"></p>

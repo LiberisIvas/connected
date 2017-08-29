@@ -9,7 +9,7 @@ class Login extends CI_Controller{
 				$this->check_login();
 				break;
 			case 'register':
-				$this->check_register();
+				redirect("register");
 				break;
 			default:
 				$this->load->view("main");
@@ -64,6 +64,11 @@ class Login extends CI_Controller{
 
 			
 			
+	}
+
+
+	public function register (){
+		$this->load->view("register");
 	}
 
 	public function check_register(){

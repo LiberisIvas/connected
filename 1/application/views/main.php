@@ -41,8 +41,10 @@ var_dump($this->session->all_userdata());
 	<h1>WELCOME TO CREATIVE COMMUNITY</h1> <br>
 <h2>Manifest your creativity with others where you connect and make your projects real</h2>
 
-<button type="submit">Create your account</button>
- 
+
+<form method="POST" action="">
+<button type="submit" name="register" value="register">Create your account</button>
+ </form>
 
 
 
