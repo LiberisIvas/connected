@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+<!-- BOOTSTRAP -->
+>>>>>>> 75aac00011ce11b98bb720797c03c7e39ad790d2
 
 <div class="container">
     <h1 class="well">Registration Form</h1> <br>
@@ -45,8 +49,13 @@
 							
 													
 					<div class="form-group">
+<<<<<<< HEAD
 						<label>Description about yourself / your story</label>
 						<input type="text" name="story" placeholder="Enter your story here.." class="form-control">
+=======
+						<label>Story</label>
+						<input type="textarea" name="story" placeholder="Enter your story here.." class="form-control">
+>>>>>>> 75aac00011ce11b98bb720797c03c7e39ad790d2
 					</div>
 					<div class="form-group">
 								<label>Links with your portfolio</label>

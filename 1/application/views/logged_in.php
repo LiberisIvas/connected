@@ -8,7 +8,6 @@
 	<input type="submit" name="" value="Heads">
 </form>
 
-
 <form name="action" method="Post">
 	
 	<input type="submit" name="" value="Hands">
@@ -19,18 +18,15 @@
 	<input type="submit" name="" value="Ears">
 </form>
 
-
 <form name="action" method="Post">
 	
 	<input type="submit" name="" value="Eyes">
 </form>
 
-
 <form name="action" method="Post">
 	
 	<input type="submit" name="" value="Body">
 </form>
-
 
 <form name="action" method="Post">
 	
