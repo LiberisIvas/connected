@@ -1,0 +1,57 @@
+
+.group {
+
+	margin: 30px  ;
+	border-style: solid;
+	border-color: red;
+	border-width: 3px; 
+	padding: 30px;
+	display: inline-block;
+	vertical-align: top;
+	height: 480px;
+	width: 280px;
+
+
+}
+
+.container{
+	
+	background: linear-gradient(to bottom, #deefff 0%,#98bede 100%); 
+	text-align:  center ;
+	height: 100%;
+	width: 100%;
+
+	margin: 0;
+	
+
+	
+
+}
+
+.btn_log {
+	background-color: #68A64C;
+	margin-top: 135px; 
+	width: 100px;
+}
+.btn_register{
+	background-color: #68A64C;
+	margin: 25px;
+	width: 100px;
+}
+
+.text{
+	color: blue;
+
+}
+
+.line{
+	color: red;
+}
+
+hr {
+	color: #000;
+}
+
+#info{
+	
+}
