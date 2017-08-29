@@ -26,14 +26,14 @@ var_dump($this->session->all_userdata());
 <div class="group">
 	<h3 class="text">* LogIn *</h3>
 	<h3 class="text">Email and password</h3><hr width="70%" ;"><br>
-	<form action="Login" method="POST">
+	<form action="<?= base_url('Login'); ?>" method="POST">
 		<p><input type="email" name="email" placeholder="Your Email"></p>
 		<p><input type="password" name="password" placeholder="Your Password"></p><br>
-		<input type="hidden" name="submit" value="Login">
-		<input class="btn_log" type="submit" name="action" value="Login"> 
+		<input type="hidden" name="action" value="Login">
+		<input class="btn_log" type="submit" name="" value="Login"> 
 
 	</form>
-<form method="POST" action="Login">
+<form method="POST" action="<?= base_url('Login'); ?>">
 <button type="submit" name="action" value="register">Create your account</button>
  </form>
 </div>

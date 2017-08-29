@@ -4,16 +4,13 @@ class Logged extends CI_Controller{
 
 	public function index (){
 
-		switch ($this->input->post('action')) {
-			case '':
-				$this->check_login();
-				break;
-			case '':
-				$this->check_register();
-				break;
-			default:
-				$this->load->view("");
-				break;
+		if ($this->input->post('action')) {
+			
+			
+		}
+		else {
+			$this->load->view('users_by_category');
+				
 		}
 
 	}

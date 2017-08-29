@@ -3,8 +3,8 @@
 class Login extends CI_Controller{
 
 	public function index(){
-
 		switch ($this->input->post('action')) {
+
 			case 'Login':
 				$this->check_login();
 				break;
@@ -53,7 +53,7 @@ class Login extends CI_Controller{
                     if($passw === $check_exist['password'])
                     {
                         $this->session->set_userdata('loggedin_user', $check_exist);
-                        redirect("/Login/success");
+                        redirect("/Logged");
                     }
                     else
                         die('password doesnt match');
