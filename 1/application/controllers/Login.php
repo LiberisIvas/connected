@@ -12,7 +12,10 @@ class Login extends CI_Controller{
 				$this->check_register();
 				break;
 			default:
+				$this->load->view("Template/navigation");
+				$this->load->view("Template/header");
 				$this->load->view("main");
+				$this->load->view("Template/footer");
 				break;
 		}
 

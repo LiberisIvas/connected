@@ -11,6 +11,12 @@
 		<p><input type="password" name="confirm_password" placeholder="Confirm password"></p>
 		<br>
 		<p><select  name="category" ></p>
+		<option value="heads">Heads</option>
+		<option value="hands">Hands</option>
+		<option value="eyes">Eyes</option>
+		<option value="ears">Ears</option>
+		<option value="body">Body</option>
+		<option value="others">Others</option>
 		<p><input type="text" name="look_for" placeholder="Looking for"></p>
 		<p><input type="text" name="link" placeholder="Past your profile link"></p>
 		<p><input type="text" name="story" placeholder="write your story"></p>
