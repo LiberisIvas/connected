@@ -1,15 +1,9 @@
+
+
+
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
-var_dump($_POST) ; echo "<hr>";
 var_dump($this->session->all_userdata());
 ?>
-
-<!DOCTYPE html>
-<html class="container">
-<head>
-	<title>Log In</title>
-	<link rel="stylesheet" type="text/css" href="./asset/css/style.css">
-</head>
-<body >
 <h2>
 	<?php
 		// var_dump($this->session->all_userdata());
@@ -30,7 +24,7 @@ var_dump($this->session->all_userdata());
 
 	?>
 </h2>
-<div >
+<div>
 <div class="group">
 	<h3 class="text">* LogIn *</h3>
 	<h3 class="text">Please enter Email and password</h3><hr width="70%" ;"><br>
@@ -44,6 +38,11 @@ var_dump($this->session->all_userdata());
 
 </div>
 
+	<h1>WELCOME TO CREATIVE COMMUNITY</h1> <br>
+<h2>Manifest your creativity with others where you connect and make your projects real</h2>
+
+<button type="submit">Create your account</button>
+ 
 
 <div class="group">
 	<h3 class="text">* Register *</h3>
