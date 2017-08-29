@@ -1,6 +1,3 @@
-
-
-
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 var_dump($this->session->all_userdata());
 ?>
@@ -49,5 +46,3 @@ var_dump($this->session->all_userdata());
 
 
 </div>
-</body>
-</html>	
