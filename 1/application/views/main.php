@@ -20,11 +20,29 @@ var_dump($this->session->all_userdata());
 
 
 	?>
+
+ <!DOCTYPE html>
+ <html>
+ <head>
+ 	<title>Landing Page</title>
+ 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<style>
+	.mySlides {display:none;}
+	</style>
+ 	<meta charset="utf-8">
+ 	<style>
+	.mySlides {display:none;}
+	</style>
+	</head>
+
+<body background="http://cdn.wallpapersafari.com/51/86/zSAOXR.jpeg">
+
 </h2>
 <div>
 <div class="group">
 	<h3 class="text">* LogIn *</h3>
-	<h3 class="text">Please enter Email and password</h3><hr width="70%" ;"><br>
+	<h3 class="text">Email and password</h3><hr width="70%" ;"><br>
 	<form action="Login" method="POST">
 		<p><input type="email" name="email" placeholder="Your Email"></p>
 		<p><input type="password" name="password" placeholder="Your Password"></p><br>
@@ -32,17 +50,20 @@ var_dump($this->session->all_userdata());
 		<input class="btn_log" type="submit" name="action" value="Login"> 
 
 	</form>
-
-</div>
-
-	<h1>WELCOME TO CREATIVE COMMUNITY</h1> <br>
-<h2>Manifest your creativity with others where you connect and make your projects real</h2>
-
-
 <form method="POST" action="Login">
 <button type="submit" name="action" value="register">Create your account</button>
  </form>
+</div>
+
+	<h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WELCOME TO CREATIVE COMMUNITY</h1> <br>
+<h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Manifest your creativity with others<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; where you connect and make your projects real</h2>
 
 
+
+
+
+
+</body>
+</html>
 
 </div>
