@@ -1,6 +1,6 @@
 <h1>Register Form</h1>
 
-<<!-- div class="group">
+<div class="group">
 	<h3 class="text">* Register *</h3>
 	<h3 class="text"> Please enter your information </h3><hr width="70%"><br>
 	<form action="Login/check_register" method="POST">
@@ -20,16 +20,16 @@
 		<p><input type="text" name="look_for" placeholder="Looking for"></p>
 		<p><input type="text" name="link" placeholder="Past your profile link"></p>
 		<p><input type="text" name="story" placeholder="write your story"></p>
-		<!-- <p><input type="upload" name="image" ></p>  incase we did it -->
+		<p><input type="upload" name="image" ></p>  incase we did it
 
-	<!-- 	<input type="hidden" name="submit" value="register">
+		<input type="hidden" name="submit" value="register">
 		<input class="btn_register" type="submit" name="action" value="register">
 
 		
-	</form> -->
+	</form>
 	
-
-</div> -->
+<!-- 
+</div>
 
 <!-- BOOTSTRAP -->
 
@@ -91,4 +91,4 @@
 				</form> 
 				</div>
 	</div>
-	</div>
+	</div> -->

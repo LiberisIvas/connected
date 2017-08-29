@@ -12,7 +12,7 @@ class Login extends CI_Controller{
 				redirect("/Login/register");
 				break;
 			default:
-				$this->load->view("Template/navigation");
+				$this->load->view("Template/navigation_landing");
 				$this->load->view("Template/header");
 				$this->load->view("main");
 				$this->load->view("Template/footer");

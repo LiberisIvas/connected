@@ -23,20 +23,14 @@ var_dump($this->session->all_userdata());
 
 </h2>
 <div>
-<div class="group">
-	<h3 class="text">* LogIn *</h3>
-	<h3 class="text">Email and password</h3><hr width="70%" ;"><br>
-	<form action="<?= base_url('Login'); ?>" method="POST">
-		<p><input type="email" name="email" placeholder="Your Email"></p>
-		<p><input type="password" name="password" placeholder="Your Password"></p><br>
-		<input type="hidden" name="action" value="Login">
-		<input class="btn_log" type="submit" name="" value="Login"> 
 
-	</form>
-<form method="POST" action="<?= base_url('Login'); ?>">
-<button type="submit" name="action" value="register">Create your account</button>
- </form>
-</div>
 
 	<h1>WELCOME TO CREATIVE COMMUNITY</h1> <br>
 <h2> where you connect and make your projects real</h2>
+
+    <br><br><br><br><br><br>
+
+        </form>
+      <form method="POST" action="<?= base_url('Login'); ?>">
+      <button type="submit" name="action" value="register">Create your account</button>
+       </form>

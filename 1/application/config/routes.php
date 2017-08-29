@@ -3,7 +3,7 @@
 
 $route['default_controller'] = "Login";
 //$route['Login/success']= "http://localhost/l_r/success";
-$route['404_override'] = '';
+$route['register'] = 'Login/register';
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */
