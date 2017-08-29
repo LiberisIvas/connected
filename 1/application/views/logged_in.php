@@ -1,6 +1,6 @@
 <h1>logged in site</h1>
 
-<p class="welcome">Welcome, php tag</p>
+<h2 class="welcome">Welcome, php tag</h2>
 
 
 <form name="action" method="Post">
