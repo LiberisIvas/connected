@@ -20,6 +20,24 @@ var_dump($this->session->all_userdata());
 
 
 	?>
+
+ <!DOCTYPE html>
+ <html>
+ <head>
+ 	<title>Landing Page</title>
+ 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<style>
+	.mySlides {display:none;}
+	</style>
+ 	<meta charset="utf-8">
+ 	<style>
+	.mySlides {display:none;}
+	</style>
+	</head>
+
+<body background="http://turbo.premiumpixels.com/wp-content/uploads/2011/05/preview11.jpg">
+
 </h2>
 <div>
 <div class="group">
@@ -44,5 +62,8 @@ var_dump($this->session->all_userdata());
  </form>
 
 
+
+</body>
+</html>
 
 </div>
