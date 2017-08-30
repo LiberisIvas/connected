@@ -1,5 +1,5 @@
 
-<?php echo link_tag('application/views/Templates/header'); ?> 
+<?php //echo link_tag('application/views/Templates/header'); ?> 
 <h1>see profile</h1>
 
 <?php
