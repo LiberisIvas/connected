@@ -64,7 +64,11 @@ $autoload['libraries'] = array('database', 'session','form_validation');
 |	$autoload['helper'] = array('url', 'file');
 */
 
+<<<<<<< HEAD
 $autoload['helper'] = array('url','html');
+=======
+$autoload['helper'] = array('url', 'html');
+>>>>>>> mahmoud_backend
 
 
 /*
