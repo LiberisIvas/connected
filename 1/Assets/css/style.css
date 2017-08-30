@@ -83,6 +83,8 @@ body {
   height: 70px;
   width: 70px;
   display: inline-block;
+  text-align: left;
+  position: static;
 }
 .form-control2 {
   display: block;
@@ -117,4 +119,7 @@ body {
 
 display: inline-block;
 text-align: right;
+}
+.absolute_carr{
+  position:absolute;
 }
