@@ -71,7 +71,7 @@ class Login extends CI_Controller{
 
 
 	public function register (){
-		$this->load->view("Template/navigation");
+		$this->load->view("Template/navigation_landing");
 		$this->load->view("Template/header");
 		$this->load->view("register");
 		$this->load->view("Template/footer");
@@ -103,6 +103,7 @@ class Login extends CI_Controller{
 		     
 		    
 			$this->load->view("Template/header");
+			$this->load->view("Template/navigation");
 			$this->load->view("main");
 			$this->load->view("Template/footer");
 		    
@@ -140,6 +141,7 @@ class Login extends CI_Controller{
 
 	public function logout()
     {
+
         $this->session->unset_userdata('loggedin_user');
         $this->session->sess_destroy();
         $this->load->view('you_loggedout');
@@ -150,7 +152,10 @@ class Login extends CI_Controller{
 
 
     public function success(){
+    	$this->load->view("Template/header");
+    	$this->load->view("Template/navigation_landing");
     	$this->load->view('users_by_category');
+    	$this->load->view("Template/footer");
     }
 }	
 

@@ -84,3 +84,37 @@ body {
   width: 70px;
   display: inline-block;
 }
+.form-control2 {
+  display: block;
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  font-size: 1rem;
+  line-height: 4;
+  color: #464a4c;
+  resize: none;
+  background-color: #fff;
+  word-wrap: normal;
+  word-break: break-all;
+  box-sizing: border-box;
+  text-align: left;
+  white-space: normal;
+  word-break: normal;
+  word-spacing: normal;
+  line-break: auto;
+  text-align: start;
+  }
+  textarea {
+    resize: none;
+  }
+.form-inline2{
+    display: inline-block;
+  -webkit-box-align: right;
+  -webkit-align-items: right;
+      -ms-flex-align: right;
+          align-items: right;
+}
+.login_navigation {
+
+display: inline-block;
+text-align: right;
+}

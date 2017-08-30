@@ -24,12 +24,13 @@
 							<div class="col-sm-6 form-group">
 								<label>Re-enter Password</label>
 								<input type="password" name="confirm_password" placeholder="Re-enter password" class="form-control">
-							</div> </div>
+							</div> 
+						</div>
 							
 						<div class="form-group">
 								<label>Looking for</label>
 								<input type="text" name="look_for" placeholder="Enter what you are looking for.." class="form-control">
-							</div>
+						</div>
 						<div class="col-sm-4 form-group">Choose your strong side</div>
 						<div class="row">	
 								
@@ -40,24 +41,23 @@
 							<option value="ears">Ear</option>
 							<option value="body">Body</option>
 							<option value="others">Other</option>
-						</select>**Please choose which side is your gift**</div><br>
-						
+						</select>**Please choose which side is your gift**
+						</div><br>
 							
 													
 					<div class="form-group">
 
-						<label>Description about yourself / your story</label>
-						<input type="text" name="story" placeholder="Enter your story here.." class="form-control">
-
-						<label>Story</label>
-						<input type="textarea" name="story" placeholder="Enter your story here.." class="form-control">
-
-					</div>
-					<div class="form-group">
+						<div class="form-group">
 								<label>Links with your portfolio</label>
 								<input type="text" name="link" placeholder="Place your portfolio links" class="form-control">
-							</div>
 						</div>
+
+						<label>Story</label>
+						<textarea name="story" cols="82" rows="4" placeholder="Enter your story here.." wrap="soft"></textarea>
+
+					</div>
+					
+				</div>
 					<input class="btn_register" type="submit" name="action" value="register">				
 			</div>						
 				
