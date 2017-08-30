@@ -29,8 +29,8 @@ class user_model extends CI_Model {
 
     public function add_message($new_message){
             $query = "INSERT INTO messages
-            (id_user, id_recipient, status, text_message, created_at, updated_at)
-                VALUES (?,?,?,?,?,?)";
+            (id_user, sender_name, id_recipient, recipient_name, status, text_message, created_at, updated_at)
+                VALUES (?,?,?,?,?,?,?,?)";
             return $this->db->query($query, $new_message);
     }
     

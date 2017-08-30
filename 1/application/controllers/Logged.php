@@ -59,7 +59,9 @@ class Logged extends CI_Controller{
 			else{
 				 $values = array(
             'id_user'=>$this->input->post('id', true),
+            'sender_name'=>$this->input->post('sender_name', true),
             'id_recipient'=>$this->input->post('recipient', true),
+            'recipient_name'=>$this->input->post('recipient_name', true),
             'status'=>$this->input->post('status', true),
             'message_text'=>$this->input->post('message_text', true),
         	'created_at'=> date("Y-m-d, H:i:s"),
