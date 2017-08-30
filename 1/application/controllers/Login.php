@@ -11,9 +11,9 @@ class Login extends CI_Controller{
 			case 'register':
 				redirect("/Login/register");
 				break;
-			default:
-				$this->load->view("Template/navigation_landing");
+			default:		
 				$this->load->view("Template/header");
+				$this->load->view("Template/navigation_landing");
 				$this->load->view("main");
 				$this->load->view("Template/footer");
 				break;
@@ -34,9 +34,8 @@ class Login extends CI_Controller{
 		if ($this->form_validation->run() == FALSE)
 			{
 		     // $this->view_data['errors'] = validation_errors();
-		     
-		     	$this->load->view("Template/navigation_landing");
 				$this->load->view("Template/header");
+				$this->load->view("Template/navigation_landing");
 				$this->load->view("main");
 				$this->load->view("Template/footer");   
 		}
@@ -73,9 +72,9 @@ class Login extends CI_Controller{
 	}
 
 
-	public function register (){
-		$this->load->view("Template/navigation_landing");
+	public function register (){	
 		$this->load->view("Template/header");
+		$this->load->view("Template/navigation_landing");
 		$this->load->view("register");
 		$this->load->view("Template/footer");
 	}
@@ -104,9 +103,8 @@ class Login extends CI_Controller{
 		if ($this->form_validation->run() == FALSE)
 			{
 		     
-		    
+		    	$this->load->view("Template/header");
 				$this->load->view("Template/navigation_landing");
-				$this->load->view("Template/header");
 				$this->load->view("main");
 				$this->load->view("Template/footer");
 		    
@@ -132,8 +130,9 @@ class Login extends CI_Controller{
 		     $this->user_model->add_user($values);
 		     $this->session->set_userdata('sucessmsg', 'Thanks for your registration.please Login');
 		     //$temp["temp"] = $this->session->userdata('successMsg');
-		     	$this->load->view("Template/navigation_landing");
+		     	
 				$this->load->view("Template/header");
+				$this->load->view("Template/navigation_landing");
 				$this->load->view("main");
 				$this->load->view("Template/footer");
 			

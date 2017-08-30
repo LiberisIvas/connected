@@ -18,7 +18,10 @@ class Logged extends CI_Controller{
 				
 		}
 		else {
+			$this->load->view("Template/header");
+			$this->load->view("Template/navigation");
 			$this->load->view('logged_in');
+			$this->load->view("Template/footer");
 				
 		}
 
