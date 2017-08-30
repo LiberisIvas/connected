@@ -82,4 +82,5 @@ body {
 .image_screw {
   height: 70px;
   width: 70px;
+  display: inline-block;
 }
