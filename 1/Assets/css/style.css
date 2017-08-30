@@ -123,3 +123,9 @@ text-align: right;
 .absolute_carr{
   position:absolute;
 }
+.in_out_box {
+  width: 80%;
+  height: auto;
+  border-color: black;
+  border: solid;
+}
