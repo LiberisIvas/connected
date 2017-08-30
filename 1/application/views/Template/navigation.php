@@ -1,3 +1,7 @@
+<?php  if ($this->session->userdata('loggedin_user')==""){
+    redirect();
+} ?>
+
 <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
   <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
