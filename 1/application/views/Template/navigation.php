@@ -23,7 +23,8 @@
           Filter users by
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="#">Head</a>
+
+          <a class="dropdown-item" href="#" onclick="document.getElementById('heads').submit();">Head</a>
           <a class="dropdown-item" href="#">Hand</a>
           <a class="dropdown-item" href="#">Ear</a>
           <a class="dropdown-item" href="#">Eye</a>

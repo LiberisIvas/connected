@@ -135,7 +135,7 @@ class Login extends CI_Controller{
 				$this->load->view("Template/header");
 				$this->load->view("Template/navigation_landing");
 				$this->load->view("main");
-				$this->load->view("Template/footer");
+				$this->load->view("Template/header");
 			
 				
 		}
@@ -150,9 +150,8 @@ class Login extends CI_Controller{
 
         $this->session->unset_userdata('loggedin_user');
         $this->session->sess_destroy();
-        redirect();
+        redirect("/Login/out");
     }
-
 
 
 

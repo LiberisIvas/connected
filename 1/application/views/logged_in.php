@@ -9,12 +9,12 @@
 <h3> Please select a category bellow to see users who are placed in the selected category </h3>
 
 
-<form action="Logged" method="Post">
+<form id="heads" action="Logged" method="Post">
 	
 	<input class="btn-success btn-lg" type="submit" name="action" value="Heads" style="height:180px; width:33%">
 
 
-<form name="action" method="Post">
+<!-- <form name="action" method="Post"> -->
 
 <form action="Logged" method="Post">
 
