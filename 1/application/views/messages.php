@@ -12,7 +12,7 @@
 	<?php 
  	
 	foreach ($inbox as $key => $value) {
-	  	echo  $value['text_message'] . "<form method='POST' action='/Logged/show_profile'><button name='view_profile' value= {$value['id_user']}>Reply</button></form>" . "<form method='POST' action='/Logged/delete_message'><button name='delete' value={$value['id_message']}>DELETE</button></form>" . "<br>";
+	  	echo  "From: {$value['sender_name']} <br>" . $value['text_message'] . "<form method='POST' action='/Logged/show_profile'><button name='view_profile' value= {$value['id_user']}>Reply</button></form>" . "<form method='POST' action='/Logged/delete_message'><button name='delete' value={$value['id_message']}>DELETE</button></form>" . "<br>";
 	  } ;
 
 	 ?>
@@ -25,7 +25,7 @@
 	<?php 
  	
 	foreach ($outbox as $key => $value) {
-	  	echo $value['text_message'] . "<br>";
+	  	echo "send to: {$value['recipient_name']} <br>". $value['text_message'] . "<br><br>";
 	  }  ;
 
 	 ?>
