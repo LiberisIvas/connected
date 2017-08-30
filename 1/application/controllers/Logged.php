@@ -74,4 +74,15 @@ class Logged extends CI_Controller{
 
 	}
 
+	// public function delete_message (){
+	// 		$delete_message= $this->input->post("delete");
+	// 		$this->load->model("user_model");
+	// 		$this->user_model->get_inbox($delete_message);
+	// 		redirect();
+
+	// }
+	
+
+
+
 }	
