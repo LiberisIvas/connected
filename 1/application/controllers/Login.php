@@ -124,8 +124,8 @@ class Login extends CI_Controller{
             'link'=>$this->input->post('link', true),
             'story'=>$this->input->post('story', true),
             'image'=>$this->input->post('image', true),
-        	'created_at'=> date("Y-m-d, H:i:s"),
-        	'updated_at'=>date("Y-m-d, H:i:s")
+        	'created_at'=> date("Y-m-d H:i:s"),
+        	'updated_at'=>date("Y-m-d H:i:s")
         	);
 		     $this->load->model("user_model");
 		     $this->user_model->add_user($values);

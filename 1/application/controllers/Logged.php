@@ -64,8 +64,8 @@ class Logged extends CI_Controller{
             'recipient_name'=>$this->input->post('recipient_name', true),
             'status'=>$this->input->post('status', true),
             'message_text'=>$this->input->post('message_text', true),
-        	'created_at'=> date("Y-m-d, H:i:s"),
-        	'updated_at'=>date("Y-m-d, H:i:s")
+        	'created_at'=> date("Y-m-d H:i:s"),
+        	'updated_at'=>date("Y-m-d H:i:s")
         	);
 		     $this->load->model("user_model");
 		     $this->user_model->add_message($values);
