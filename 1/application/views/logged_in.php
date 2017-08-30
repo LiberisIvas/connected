@@ -1,11 +1,12 @@
-<h1>logged in site</h1>
+<h1>logged in to Screw</h1>
 
 <?php 
 
 
  ?>
-
-<h2 class="welcome">Welcome, <?= $this->session->userdata('loggedin_user')["first_name"]  ?> </h2>
+<br>
+<h2 class="welcome">Welcome <?= $this->session->userdata('loggedin_user')["first_name"]  ?>,<br><br></h2>
+<h3> Please select a category bellow to see users who are placed in the selected category </h3>
 
 
 <form action="Logged" method="Post">
@@ -48,6 +49,6 @@
 	
 	<input class="btn-warning btn-lg" type="submit" name="action" value="Others">
 </form>
-
+<br><br><br><br><br><br><br>
 <form method="post" action="/Logged/go_to_messages" ><button class="btn-warning btn-lg" type="submit" name="mail" >go to mail</button></form>
  
