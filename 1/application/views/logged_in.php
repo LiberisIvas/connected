@@ -13,12 +13,11 @@
 	<input type="submit" name="action" value="Heads">
 </form>
 
-<<<<<<< HEAD
+
 <form name="action" method="Post">
-=======
 
 <form action="Logged" method="Post">
->>>>>>> mahmoud_backend
+
 	
 	<input type="submit" name="action" value="Hands">
 </form>
@@ -28,32 +27,26 @@
 	<input type="submit" name="action" value="Ears">
 </form>
 
-<<<<<<< HEAD
+
 <form name="action" method="Post">
-=======
+
 
 <form action="Logged" method="Post">
->>>>>>> mahmoud_backend
 	
 	<input type="submit" name="action" value="Eyes">
 </form>
 
-<<<<<<< HEAD
 <form name="action" method="Post">
-=======
 
 <form action="Logged" method="Post">
->>>>>>> mahmoud_backend
 	
 	<input type="submit" name="action" value="Body">
 </form>
 
-<<<<<<< HEAD
 <form name="action" method="Post">
-=======
 
 <form action="Logged" method="Post">
->>>>>>> mahmoud_backend
+
 	
 	<input type="submit" name="action" value="Others">
 </form>

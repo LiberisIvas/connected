@@ -1,10 +1,4 @@
 
-<<<<<<< HEAD
-=======
-
-<!-- BOOTSTRAP -->
->>>>>>> mahmoud_backend
-
 <div class="container">
     <h1 class="well">Registration Form</h1> <br>
 
