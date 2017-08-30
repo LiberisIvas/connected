@@ -150,7 +150,7 @@ class Login extends CI_Controller{
 
         $this->session->unset_userdata('loggedin_user');
         $this->session->sess_destroy();
-        $this->load->view('you_loggedout');
+        redirect();
     }
 
 
