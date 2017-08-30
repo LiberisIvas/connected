@@ -10,8 +10,7 @@
 
 <form action="Logged" method="Post">
 	
-	<input type="submit" name="action" value="Heads">
-</form>
+	<input class="btn-warning btn-lg" type="submit" name="action" value="Heads">
 
 
 <form name="action" method="Post">
@@ -19,12 +18,12 @@
 <form action="Logged" method="Post">
 
 	
-	<input type="submit" name="action" value="Hands">
-</form>
+	<input class="btn-warning btn-lg" type="submit" name="action" value="Hands">
+
 
 <form action="Logged" method="Post">
 	
-	<input type="submit" name="action" value="Ears">
+	<input class="btn-warning btn-lg" type="submit" name="action" value="Ears">
 </form>
 
 
@@ -33,23 +32,22 @@
 
 <form action="Logged" method="Post">
 	
-	<input type="submit" name="action" value="Eyes">
-</form>
+	<input class="btn-warning btn-lg" type="submit" name="action" value="Eyes">
 
 <form name="action" method="Post">
 
 <form action="Logged" method="Post">
 	
-	<input type="submit" name="action" value="Body">
-</form>
+	<input class="btn-warning btn-lg" type="submit" name="action" value="Body">
+
 
 <form name="action" method="Post">
 
 <form action="Logged" method="Post">
 
 	
-	<input type="submit" name="action" value="Others">
+	<input class="btn-warning btn-lg" type="submit" name="action" value="Others">
 </form>
 
-<form method="post" action="/Logged/go_to_messages" ><button type="submit" name="mail" >go to mail</button></form>
+<form method="post" action="/Logged/go_to_messages" ><button class="btn-warning btn-lg" type="submit" name="mail" >go to mail</button></form>
  
