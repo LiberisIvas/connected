@@ -51,5 +51,5 @@
 	<input type="submit" name="action" value="Others">
 </form>
 
-<form method="post" action="/Logged/go_to_messages" ><button type="submit" name="mail" value="<?= $this->session->userdata('loggedin_user')['idusers']?>" >go to mail</button></form>
+<form method="post" action="/Logged/go_to_messages" ><button type="submit" name="mail" >go to mail</button></form>
  

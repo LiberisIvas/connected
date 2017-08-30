@@ -79,7 +79,7 @@ class Logged extends CI_Controller{
 	}
 
 	public function go_to_messages (){
-			$mail= $this->input->post('mail');
+			$mail= $this->session->userdata('loggedin_user')['idusers'];
 			$this->load->model("user_model");
 			$all_mail['inbox']=$this->user_model->get_inbox($mail);
 			$all_mail['outbox']=$this->user_model->get_outbox($mail);
@@ -91,13 +91,13 @@ class Logged extends CI_Controller{
 
 	}
 
-	// public function delete_message (){
-	// 		$delete_message= $this->input->post("delete");
-	// 		$this->load->model("user_model");
-	// 		$this->user_model->delete_message($delete_message);
-	// 		redirect();
+	public function delete_message (){
+			$delete_message= $this->input->post("delete");
+			$this->load->model("user_model");
+			$this->user_model->delete_message($delete_message);
+			redirect("/Logged/go_to_messages"); 
 
-	// }
+	}
 	
 
 
