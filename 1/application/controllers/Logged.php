@@ -18,26 +18,26 @@ class Logged extends CI_Controller{
 				
 		}
 		else {
-			// $this->load->view("Template/header");
-			// $this->load->view("Template/navigation");
+			$this->load->view("Template/header");
+			$this->load->view("Template/navigation");
 			$this->load->view('logged_in');
-			// $this->load->view("Template/footer");
+			$this->load->view("Template/footer");
 				
 		}
 
 	}
 
-	// public function show_profile() {
-	// 		$chosen= $this->input->post('view_profile');
-	// 		$this->load->model("user_model");
-	// 		$one['profile']=$this->user_model->get_user_profile($chosen);
-	// 		$this->load->view("Template/header");
-	// 		$this->load->view("Template/navigation");
-	// 		$this->load->view("profile",$one);
-	// 		$this->load->view("Template/footer");
+	public function show_profile() {
+			$chosen= $this->input->post('view_profile');
+			$this->load->model("user_model");
+			$one['profile']=$this->user_model->get_user_profile($chosen);
+			$this->load->view("Template/header");
+			$this->load->view("Template/navigation");
+			$this->load->view("profile",$one);
+			$this->load->view("Template/footer");
 			
 
-	// }
+	}
 
 
 	public function create_message (){
@@ -49,9 +49,9 @@ class Logged extends CI_Controller{
 			{
 		     
 		    
-			// $this->load->view("Template/header");
-			// $this->load->view("main");
-			// $this->load->view("Template/footer");
+			 $this->load->view("Template/header");
+			 $this->load->view("main");
+			 $this->load->view("Template/footer");
 		    
 		      
 
