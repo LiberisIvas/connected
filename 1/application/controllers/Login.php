@@ -34,10 +34,11 @@ class Login extends CI_Controller{
 		if ($this->form_validation->run() == FALSE)
 			{
 		     // $this->view_data['errors'] = validation_errors();
-				$this->load->view("Template/header");
-				$this->load->view("Template/navigation_landing");
-				$this->load->view("main");
-				$this->load->view("Template/footer");   
+				// $this->load->view("Template/header");
+				// $this->load->view("Template/navigation_landing");
+				// $this->load->view("main");
+				// $this->load->view("Template/footer");   
+				redirect();
 		}
 		else
 			{
