@@ -6,3 +6,7 @@
 1/application/models/user_model.php
 1/application/views/message_sent.php
 *.php
+*.php
+1/application/controllers/Logged.php
+1/application/models/user_model.php
+1/application/views/messages.php

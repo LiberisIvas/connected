@@ -54,12 +54,12 @@ class user_model extends CI_Model {
     }
 
 
-    // public function delete_message ($message){
-    //        // return $this->db->query( "UPDATE messages SET status='2' WHERE id_message=? " , $message );
-    //     $this->db->where('id_message',$message);
-    //     $this->db->update('messages','2');
+    public function delete_message ($message){
+           // return $this->db->query( "UPDATE messages SET status='2' WHERE id_message=? " , $message );
+        $this->db->where('id_message',$message);
+        $this->db->update('messages','2');
        
-    // }
+    }
 
 
 
