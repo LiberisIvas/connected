@@ -7,7 +7,7 @@
 
 
 
-<div> <!-- inbox -->
+<div class="in_out_box"> 
 	<h4>inbox</h4>
 	<?php 
  	
@@ -20,7 +20,7 @@
 
 
 
-<div> <!-- outbox -->
+<div class="in_out_box"> <!-- outbox -->
 	<h4>outbox</h4>
 	<?php 
  	

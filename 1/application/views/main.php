@@ -1,6 +1,7 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 // var_dump($this->session->all_userdata());
 ?>
+<div class="container text-center" >
 <hr>
 	<?php
 		// var_dump($this->session->all_userdata());
@@ -14,10 +15,11 @@
 		        $this->session->unset_userdata('sucessmsg');
 		    }
 	?>
-</hr>
+</hr></div>
 
 
 <div class="container text-center" >
+
 	<h1>WELCOME TO CREATIVE COMMUNITY</h1> <br>
 <h2> where you connect and make your projects real</h2>
 </form>

@@ -12,10 +12,10 @@
 							<div class="col-sm-6 form-group">
 								<label >Last Name</label>
 								<input type="text" name="last_name" placeholder="Enter Last Name Here.." class="form-control">
-							</div>
+							</div>	
 							<div class="col-sm-6 form-group">
 								<label>Email Address</label>
-								<input type="text" name="email" placeholder="Enter Your Address Here.." class="form-control">
+								<input type="text" name="email" placeholder="Enter Your Email Here.." class="form-control">
 							</div>
 							<div class="col-sm-6 form-group">
 								<label>Password</label>
