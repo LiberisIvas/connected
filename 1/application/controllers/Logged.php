@@ -9,7 +9,13 @@ class Logged extends CI_Controller{
 			$chosen= $this->input->post('action');
 			$this->load->model("user_model");
 			$info['all_info']=$this->user_model->show_category($chosen);
+			$this->load->view("Template/header");
+			$this->load->view("Template/navigation");
 			$this->load->view("users_by_category",$info);
+			$this->load->view("Template/footer");
+
+				
+				
 		}
 		else {
 			$this->load->view('logged_in');
@@ -22,7 +28,11 @@ class Logged extends CI_Controller{
 			$chosen= $this->input->post('view_profile');
 			$this->load->model("user_model");
 			$one['profile']=$this->user_model->get_user_profile($chosen);
+			$this->load->view("Template/header");
+			$this->load->view("Template/navigation");
 			$this->load->view("profile",$one);
+			$this->load->view("Template/footer");
+			
 
 	}
 
@@ -70,7 +80,11 @@ class Logged extends CI_Controller{
 			$this->load->model("user_model");
 			$all_mail['inbox']=$this->user_model->get_inbox($mail);
 			$all_mail['outbox']=$this->user_model->get_outbox($mail);
-			$this->load->view("messages",$all_mail);	
+			$this->load->view("Template/header");
+			$this->load->view("Template/navigation");
+			$this->load->view("messages",$all_mail);
+			$this->load->view("Template/footer");
+				
 
 	}
 

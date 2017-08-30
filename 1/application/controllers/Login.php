@@ -35,7 +35,10 @@ class Login extends CI_Controller{
 			{
 		     // $this->view_data['errors'] = validation_errors();
 		     
-		     $this->load->view("main" );    
+		     	$this->load->view("Template/navigation_landing");
+				$this->load->view("Template/header");
+				$this->load->view("main");
+				$this->load->view("Template/footer");   
 		}
 		else
 			{
@@ -102,10 +105,10 @@ class Login extends CI_Controller{
 			{
 		     
 		    
-			$this->load->view("Template/header");
-			$this->load->view("Template/navigation");
-			$this->load->view("main");
-			$this->load->view("Template/footer");
+				$this->load->view("Template/navigation_landing");
+				$this->load->view("Template/header");
+				$this->load->view("main");
+				$this->load->view("Template/footer");
 		    
 		      
 
@@ -129,7 +132,10 @@ class Login extends CI_Controller{
 		     $this->user_model->add_user($values);
 		     $this->session->set_userdata('sucessmsg', 'Thanks for your registration.please Login');
 		     //$temp["temp"] = $this->session->userdata('successMsg');
-		     $this->load->view("main");
+		     	$this->load->view("Template/navigation_landing");
+				$this->load->view("Template/header");
+				$this->load->view("main");
+				$this->load->view("Template/footer");
 			
 				
 		}
