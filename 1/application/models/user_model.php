@@ -42,12 +42,16 @@ class user_model extends CI_Model {
     }
     public function get_user_profile($check){
         
-        return $this->db->query( "SELECT * FROM users WHERE idusers=?",array($check))->row_array();
+        return $this->db->query( "SELECT * FROM users WHERE idusers=? ",array($check))->row_array();
 
     }
 
-
-
+    public function get_inbox ($mail){
+        return $this->db->query( "SELECT * FROM messages WHERE id_recipient=? AND status = '1' ORDER BY id_message DESC",array($mail))->result_array();
+    }
+    public function get_outbox ($mail){
+        return $this->db->query( "SELECT * FROM messages WHERE id_user=? ORDER BY id_message DESC ",array($mail))->result_array();
+    }
 
 
 

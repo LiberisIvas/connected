@@ -65,6 +65,13 @@ class Logged extends CI_Controller{
 
 	}
 
+	public function go_to_messages (){
+			$mail= $this->input->post('mail');
+			$this->load->model("user_model");
+			$all_mail['inbox']=$this->user_model->get_inbox($mail);
+			$all_mail['outbox']=$this->user_model->get_outbox($mail);
+			$this->load->view("messages",$all_mail);	
 
+	}
 
 }	
