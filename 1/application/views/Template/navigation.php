@@ -24,12 +24,12 @@
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 
-          <a class="dropdown-item" href="#" onclick="document.getElementById('heads').submit();">Head</a>
-          <a class="dropdown-item" href="#">Hand</a>
-          <a class="dropdown-item" href="#">Ear</a>
-          <a class="dropdown-item" href="#">Eye</a>
-           <a class="dropdown-item" href="#">Body</a>
-          <a class="dropdown-item" href="#">Other</a>
+          <a class="dropdown-item" href="#" onclick="document.getElementById('head').submit();">Head</a>
+          <a class="dropdown-item" href="#" onclick="document.getElementById('hand').submit();">Hand</a>
+          <a class="dropdown-item" href="#" onclick="document.getElementById('ear').submit();">Ear</a>
+          <a class="dropdown-item" href="#" onclick="document.getElementById('eye').submit();">Eye</a>
+           <a class="dropdown-item" href="#" onclick="document.getElementById('body').submit();">Body</a>
+          <a class="dropdown-item" href="#" onclick="document.getElementById('other').submit();">Other</a>
         </div>
 
       </li>

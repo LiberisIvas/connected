@@ -9,45 +9,47 @@
 <h3> Please select a category bellow to see users who are placed in the selected category </h3>
 
 
-<form id="heads" action="Logged" method="Post">
+<form id="head" action="Logged" method="Post">
 	
-	<input class="btn-success btn-lg" type="submit" name="action" value="Heads" style="height:180px; width:33%">
+	<input class="btn-success btn-lg" type="submit" name="act" value="Head" style="height:180px; width:33%">
+	<input type="hidden" name="action" value="Head">
+
+<!-- <form name="action" method="Post"> -->
+</form>
+<form id="hand" action="Logged" method="Post">
+
+
+	<input class="btn-success btn-lg" type="submit" name="act" value="Hand" style="height:180px; width:33%">
+	<input type="hidden" name="action" value="Hand">
+</form>
+<form id="ear" action="Logged" method="Post">
+	
+	<input class="btn-success btn-lg" type="submit" name="act" value="Ear" style="height:180px; width:33%">
+	<input type="hidden" name="action" value="Ear">
+</form>	
 
 
 <!-- <form name="action" method="Post"> -->
 
-<form action="Logged" method="Post">
 
-
-	<input class="btn-success btn-lg" type="submit" name="action" value="Hands" style="height:180px; width:33%">
-
-
-<form action="Logged" method="Post">
+<form id="eye" action="Logged" method="Post">
 	
-	<input class="btn-success btn-lg" type="submit" name="action" value="Ears" style="height:180px; width:33%">
-</form>	
-
-
-<form name="action" method="Post">
-
-
-<form action="Logged" method="Post">
+	<input class="btn-success btn-lg" type="submit" name="act" value="Eye" style="height:180px; width:33%">
+	<input type="hidden" name="action" value="Eye">
+<!-- <form name="action" method="Post"> -->
+</form>
+<form id="body" action="Logged" method="Post">
 	
-	<input class="btn-success btn-lg" type="submit" name="action" value="Eyes" style="height:180px; width:33%">
+	<input class="btn-success btn-lg" type="submit" name="act" value="Body" style="height:180px; width:33%">
+	<input type="hidden" name="action" value="Body">
+</form>
+<!-- <form name="action" method="Post"> -->
 
-<form name="action" method="Post">
-
-<form action="Logged" method="Post">
-	
-	<input class="btn-success btn-lg" type="submit" name="action" value="Body" style="height:180px; width:33%">
-
-
-<form name="action" method="Post">
-
-<form action="Logged" method="Post">
+<form id="other" action="Logged" method="Post">
 
 	
-	<input class="btn-success btn-lg" type="submit" name="action" value="Others" style="height:180px; width:33%">
+	<input class="btn-success btn-lg" type="submit" name="act" value="Other" style="height:180px; width:33%">
+	<input type="hidden" name="action" value="Other">
 	</form>
 
  <form method="post" action="/Logged/go_to_messages" ><button class="btn-success btn-lg" type="submit" name="mail" style="height:180px; width:99.6%" >go to mail</button></form>
