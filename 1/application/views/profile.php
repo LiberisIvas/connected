@@ -10,7 +10,8 @@
 
 <div class="container text-left well">
 	<?php 
-	echo $profile['first_name'] ." " . $profile['last_name'] . "<br>" . "Category: ". $profile['category']. "<br>" . "I am looking for: " . $profile['looking_for'] . "<br>" . $profile['link'] . "<br>" . "My Success Story: " . $profile['story'] . "<br>" ;
+	echo $profile['first_name'] ." " . $profile['last_name'] . "<br>" . "Category: ". $profile['category']. "<br>" . "I am looking for: " . $profile['looking_for'] . "<br>" . 
+"<iframe width='420' height='315'  src={$profile['link']} ></iframe>" . "<br>" . "My Success Story: " . $profile['story'] . "<br>" ;
 
 	 ?>
 </div>
