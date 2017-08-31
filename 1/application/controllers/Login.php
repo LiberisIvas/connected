@@ -94,7 +94,7 @@ class Login extends CI_Controller{
 
 		$this->form_validation->set_rules('category', 'Category', 'xss_clean|trim|required|max_length[6]');
 		$this->form_validation->set_rules('look_for', 'Looking for', 'xss_clean|trim|required|max_length[220]');
-		$this->form_validation->set_rules('link', 'Link', 'xss_clean|trim|max_length[220]');
+		$this->form_validation->set_rules('link', 'Link', 'trim|max_length[220]');
 		$this->form_validation->set_rules('story', 'Story', 'xss_clean|trim|required|min_length[30]');
 		$this->form_validation->set_rules('image', 'Image', 'xss_clean');
 
@@ -121,7 +121,7 @@ class Login extends CI_Controller{
             'password'=>md5($this->input->post('password', true) . $this->config->item('encryption_key')),
             'category'=>$this->input->post('category', true),
             'looking_for'=>$this->input->post('look_for', true),
-            'link'=>$this->input->post('link', true),
+            'link'=>$this->input->post('link', FALSE),
             'story'=>$this->input->post('story', true),
             'image'=>$this->input->post('image', true),
         	'created_at'=> date("Y-m-d H:i:s"),
