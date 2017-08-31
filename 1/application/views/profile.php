@@ -19,7 +19,7 @@
 
 <div class="container text-right well">
   <form method="POST" action="/Logged/create_message">
-  	<textarea name="message_text" rows='12' cols='90'>
+  	<textarea name="message_text" rows='12' cols='80'>
   		
   	</textarea >
   	<input type="hidden" name="recipient" value=<?=$profile['idusers']?> >
