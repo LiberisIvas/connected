@@ -28,14 +28,9 @@
     
 
   </head>
-<<<<<<< HEAD
+
   <body bgcolor="#d6d6c2">
   	<div id="main_container">
-=======
+
   <body>
   	<div id="main_container .container-fluid">
->>>>>>> 78f53630aa644c81cbd974f99e0808c805e54e6f
-
-
-
- 

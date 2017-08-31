@@ -2,7 +2,7 @@
 <h2 class="welcome">Welcome,  <?= $this->session->userdata('loggedin_user')["first_name"]  ?></h2>
 </div>
 
-<div id="profile_border" name="profile_border" style="border:thin">
+<div class="well">
 	<?php
 		// var_dump($all_info);
 		foreach ($all_info as $key => $value) {

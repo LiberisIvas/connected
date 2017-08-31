@@ -1,12 +1,11 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 // var_dump($this->session->all_userdata());
 ?>
-<<<<<<< HEAD
+
 <div class="container text-center">
-=======
 
 <div class="container text-center" >
->>>>>>> 78f53630aa644c81cbd974f99e0808c805e54e6f
+
 <hr>
 	<?php
 		// var_dump($this->session->all_userdata());

@@ -147,16 +147,17 @@ img.carousel-inner {
   border-color: black;
   border: solid;
 }
-<<<<<<< HEAD
+
 #top {
-  background-color: #e6b800;
-  width:100%;
+  background-color: #d6d6c2;
+  width:100% !important;
   text-align: center;
 }
+
 body {
-  background-color: #ebebe0 !important
+  background-color: #ebebe0 !important;
 }
-=======
+
 .btn_register {
   margin-left: 10px;
 }
@@ -164,4 +165,3 @@ body {
   position: absolute;
   text-align: center;
 }
->>>>>>> 78f53630aa644c81cbd974f99e0808c805e54e6f
