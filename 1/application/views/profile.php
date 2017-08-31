@@ -18,9 +18,7 @@
 
 <div class="container text-right well">
   <form method="POST" action="/Logged/create_message">
-  	<textarea name="message_text" rows='12' cols='80'>
-  		
-  	</textarea >
+  	<textarea name="message_text" rows='12' cols='80'></textarea>
   	<input type="hidden" name="recipient" value=<?=$profile['idusers']?> >
     <input type="hidden" name="recipient_name" value=<?=$profile['first_name']?> >
   	<input type="hidden" name="status" value="1">

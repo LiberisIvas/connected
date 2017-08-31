@@ -1,5 +1,5 @@
 <div class="message_container container">
-<h2 class="welcome">Post Box of: <?= $this->session->userdata('loggedin_user')["first_name"]  ?></h2>
+<h3 class="welcome">Post Box of: <span class="post_box_user_welcome"> <?= $this->session->userdata('loggedin_user')["first_name"]  ?></span></h3>
 <?php 
 
 
@@ -8,25 +8,27 @@
 
 
 
-<div class="in_out_box"> 
+<div class="in_out_box well"> 
 	<h4 class="messagebox_color">Inbox</h4>
+	
 	<?php 
  	
 	foreach ($inbox as $key => $value) {
-	  	echo  "From: {$value['sender_name']} <br>" . $value['text_message'] . "<form method='POST' action='/Logged/show_profile'><button class='btn btn-success' name='view_profile' value= {$value['id_user']}>Reply</button></form>" . "<form method='POST' action='/Logged/delete_message'><button class='btn btn-success' name='delete' value={$value['id_message']}>DELETE</button></form>" . "<br>";
+	  	echo  "<p class='from_user'> From: <span class='user_span'>{$value['sender_name']}</p> <br> " . $value['text_message'] . "<form method='POST' action='/Logged/show_profile'><button class='btn btn-success' name='view_profile' value= {$value['id_user']}>Reply</button></form>" . "<form method='POST' action='/Logged/delete_message'><button class='btn btn-success' name='delete' value={$value['id_message']}>DELETE</button></form>" . "<br>";
 	  } ;
 
 	 ?>
+
 </div>
 
 
 
-<div class="in_out_box"> <!-- outbox -->
+<div class="in_out_box well"> <!-- outbox -->
 	<h4 class="messagebox_color">Outbox</h4>
 	<?php 
  	
 	foreach ($outbox as $key => $value) {
-	  	echo "send to: {$value['recipient_name']} <br>". $value['text_message'] . "<br><br>";
+	  	echo "<p class=from_user> Sent to: <span class='user_span'>{$value['recipient_name']} </span></p> <br><div class='red_line well'>". $value['text_message'] . "</div><br><br>";
 	  }  ;
 
 	 ?>

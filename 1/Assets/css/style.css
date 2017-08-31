@@ -2,6 +2,7 @@
   margin-left: 100px;
   margin-top: 20px;
   margin-right: 100px;
+  background-color: red !important;
 }
 body {
   padding-top: 20px;
@@ -9,6 +10,9 @@ body {
   background-color: white;
   background-color: white !important;
   font-family: "Comic Sans MS", cursive, sans-serif!important;
+  background-color: white !important;
+  width: 1500px !important;
+  margin-left: 175px !important;
 
 }
 
@@ -162,6 +166,7 @@ margin: auto;
   height: auto;
   border-color: black;
   border: solid;
+
 }
 
 #top {
@@ -302,4 +307,32 @@ margin: auto;
   background-blend-mode: color-burn;
   padding-top: 3px;
   padding-bottom: 3px;
+}
+.from_user {
+background-color: #E4E5E4 ;
+}
+.user_span {
+  font-weight: bold;
+  text-decoration: underline;
+}
+.welcome {
+  text-align: left;
+}
+.post_box_user_welcome {
+ font-weight: bold;
+ font-size: 30px;
+ margin-left: 70px;
+}
+.btn-success{
+  padding: 1px 3px !important;
+  margin-top: 5px !important;
+
+}
+.red_line {
+  border: solid;
+  border-top-color: black;
+  border-bottom-color: black;
+  border-right: none;
+  border-left: none;
+  background-color: white;
 }
