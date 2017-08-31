@@ -149,12 +149,24 @@ margin: auto;
   border-color: black;
   border: solid;
 }
+
+#top {
+  background-color: #d6d6c2;
+  width:100% !important;
+  text-align: center;
+}
+
+body {
+  background-color: #ebebe0 !important;
+}
+
 .btn_register {
   margin-left: 10px;
 }
 .tekstas {
   position: absolute;
   text-align: center;
+<<<<<<< HEAD
 }
 
 .welcome_text {
@@ -164,3 +176,6 @@ margin: auto;
 }
 .for_all {
   }
+=======
+}
+>>>>>>> a2ad4a9727677ff7fd31bb3a8fa024281dd562f5

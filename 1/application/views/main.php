@@ -2,7 +2,14 @@
 // var_dump($this->session->all_userdata());
 ?>
 
+<<<<<<< HEAD
 <div class="text-center" >
+=======
+<div class="container text-center">
+
+<div class="container text-center" >
+
+>>>>>>> a2ad4a9727677ff7fd31bb3a8fa024281dd562f5
 <hr>
 	<?php
 		// var_dump($this->session->all_userdata());
