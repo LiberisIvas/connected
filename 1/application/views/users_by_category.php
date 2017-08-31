@@ -1,5 +1,5 @@
-<div id=top class="container text-center">
-<h2 class="welcome">Welcome,  <?= $this->session->userdata('loggedin_user')["first_name"]  ?></h2>
+<div class="container text-center">
+<h2 class="welcome well "> Dear <span class="user_class">  <?= $this->session->userdata('loggedin_user')["first_name"]  ?></span>, you see users by category</h2>
 </div>
 
 <div class="well">

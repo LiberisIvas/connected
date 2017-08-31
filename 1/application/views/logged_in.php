@@ -1,12 +1,12 @@
-<h1 align="center">logged in to Root with</h1>
+<h1 align="center" class="user_class blink_me">H  u  n  t  i  n  g  A  n  d  G  a  t  h  e  r  i  n  g </h1>
 
 <?php 
 
 
  ?>
 
-<h2 class="welcome" align="center">Welcome <?= $this->session->userdata('loggedin_user')["first_name"]  ?>,<br></h2>
-<h3 align="center"> Please select a category bellow to see users who are placed in the selected category </h3>
+<h2 align="center" >Welcome, <span class="user_class"> <?= $this->session->userdata('loggedin_user')["first_name"]  ?>,</span><br></h2>
+<h3 align="center"> Please select a category bellow to see users:  </h3>
 
 <form class="head" action="Logged" method="Post" align="center">
 	

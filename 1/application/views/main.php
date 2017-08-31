@@ -29,7 +29,7 @@
 <div class="container text-center tekstas">
 
 		<h1 class="welcome_text">WELCOME TO CREATIVE COMMUNITY</h1> <br>
-		<h1 class="welcome_name">"Hunting And Gathering"</h1> <br>
+		<h1 class="welcome_name blink_me">"Hunting And Gathering"</h1> <br>
 		<h2 class="welcome_text"> manifest your ideas with others</h2> <br> 
 		<h3 class="welcome_text"> ... and make your projects happen</h3> <br><br><br><br><br><br><br><br><br><br>
 
@@ -46,31 +46,31 @@
    <!-- Wrapper for slides -->
   <div class="carousel-inner text-center ">
     <div class="item active pav">
-      <img src="Assets/images/sel/b1.jpg" alt="picture">
+      <img src="<?= base_url('Assets/images/sel/b1.jpg');?>" alt="picture">
     	</div>
 
     <div class="item pav">
-      <img src="Assets/images/sel/b2.jpg" alt="picture">
+      <img src="<?= base_url('Assets/images/sel/b2.jpg');?>" alt="picture">
     	</div>
 
     <div class="item pav">
-      <img src="Assets/images/sel/b3.jpg" alt="picture">
+      <img src="<?= base_url('Assets/images/sel/b3.jpg')?>" alt="picture">
     	</div>
 
     <div class="item pav">
-       <img src="Assets/images/sel/b4.jpg" alt="picture">
+       <img src="<?= base_url('Assets/images/sel/b4.jpg')?>" alt="picture">
     	</div>
 
     <div class="item pav">
-      <img src="Assets/images/sel/b5.jpg" alt="picture">
+      <img src="<?= base_url('Assets/images/sel/b5.jpg')?>" alt="picture">
     	</div>
 
     <div class="item pav">
-      <img src="Assets/images/sel/b6.jpg" alt="picture">
+      <img src="<?= base_url('Assets/images/sel/b6.jpg')?>" alt="picture">
     	</div>
 
     <div class="item pav">
-      <img src="Assets/images/sel/b7.jpg" alt="picture">
+      <img src="<?= base_url('Assets/images/sel/b7.jpg')?>" alt="picture">
     	</div>
   </div>
 
