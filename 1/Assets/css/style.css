@@ -13,6 +13,7 @@ body {
 .header,
 .marketing,
 .footer {
+  padding-top: 50px !important;
   padding-right: 15px;
   padding-left: 15px;
 }
@@ -82,14 +83,14 @@ body {
   .jumbotron {
     border-bottom: 0;
   }
-}/*
-.image_screw {
-  height: 70px;
-  width: 70px;
+}
+.image_hag {
+  height: 90px;
+  width: 180px;
   display: inline-block;
   text-align: left;
   position: static;
-}*/
+}
 .form-control2 {
   display: block;
   width: 100%;
