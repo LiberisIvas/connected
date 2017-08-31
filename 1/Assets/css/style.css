@@ -197,7 +197,7 @@ body {
   background-color: silver !important;
   color: black !important;
   border-color: silver  !important;
-  box-shadow: 10px 5px 60px silver;
+  box-shadow: 2px 5px 10px silver;
   z-index: 500 !important;
   margin-left: 10px;
   
@@ -218,65 +218,74 @@ body {
 }
 
 
-#head input {
+.head input {
   background: url("/Assets/images/sel/head.jpg") no-repeat scroll 0 0 transparent !important;
-  color: #000000 !important;
   cursor: pointer;
   font-weight: bold;
+  font-size: 36px !important;
   height: 20px;
   padding-bottom: 2px;
   width: 100%;
   position: center !important;
+  text-shadow: 2px 5px 10px green;
+  color: white !important;
 }
 
 .hand input {
   background: url("/Assets/images/sel/hand.jpg") no-repeat scroll 0 0 transparent !important;
-  color: #000000 !important;
+  text-shadow: 2px 5px 10px green;
+  color: white !important;
   cursor: pointer;
   font-weight: bold;
+  font-size: 36px !important;
   height: 20px;
   padding-bottom: 2px;
   width: 75px;
   max-width: 100%;
 }
 
-#ear input {
+.ear input {
   background: url("/Assets/images/sel/ears.jpg") no-repeat scroll 0 0 transparent !important;
-  color: #000000 !important;
+  text-shadow: 2px 5px 10px green;
+  color: white !important;
   cursor: pointer;
-  /*max-width: 100%;*/
-  
   font-weight: bold;
+  font-size: 36px !important;
   height: 20px;
   padding-bottom: 2px;
-  /*width: auto;*/
 }
 
-#eye input {
+.eye input {
   background: url("/Assets/images/sel/eye.jpg") no-repeat scroll 0 0 transparent !important;
-  color: #000000 !important;
+  text-shadow: 2px 5px 10px green;
+  color: white !important;
   cursor: pointer;
   font-weight: bold;
+  font-size: 36px !important;
   height: 20px;
   padding-bottom: 2px;
   width: 75px;
 }
 
-#body input {
+.body input {
   background: url("/Assets/images/sel/test.jpg") no-repeat scroll 0 0 transparent !important;
-  color: #000000 !important;
+  text-shadow: 2px 5px 10px green;
+  color: white !important;
   cursor: pointer;
   font-weight: bold;
+  font-size: 36px !important;
   height: 20px;
   padding-bottom: 2px;
   width: 75px;
 }
 
-#other input {
+.other input {
   background: url("/Assets/images/sel/other.jpg") no-repeat scroll 0 0 transparent !important;
-  color: #000000 !important;
+  text-shadow: 2px 5px 10px green;
+  color: white !important;
   cursor: pointer;
   font-weight: bold;
+  font-size: 36px !important;
   height: 20px;
   padding-bottom: 2px;
   width: 75px;
