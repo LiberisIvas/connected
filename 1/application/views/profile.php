@@ -1,14 +1,8 @@
 
 <?php //echo link_tag('application/views/Templates/header'); ?> 
 
-
-<div id=top class="container text-center"><h2>Welcome to the profile of</h2>
-=======
-
 <div id=top class="container text-center"><h1>Welcome to the profile of</h1>
-=======
 
-<div  class="container text-center"><h2>Welcome to the profile of</h2>
 
 </div>
 
