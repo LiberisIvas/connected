@@ -1,6 +1,7 @@
 
 <?php //echo link_tag('application/views/Templates/header'); ?> 
 
+
 <div id=top class="container text-center"><h1>Welcome to the profile of</h1>
 <span class="profile_user"><?php
 
@@ -26,7 +27,16 @@
   	<input type="hidden" name="status" value="1">
   	<input type="hidden" name="id" value=<?= $this->session->userdata('loggedin_user')['idusers']?>  >
     <input type="hidden" name="sender_name" value=<?= $this->session->userdata('loggedin_user')['first_name']?> ><br><br>
-  	<button type="submit" class="btn btn-success">Send</button>
+
+  	<button type="submit" class="btn btn-success" onclick="alert1();">Send</button>
+
+    <script src="sweetalert.min.js"></script>
+    <script type="text/javascript">
+      function alert1()
+      {
+        swal("good job!", "message send", "success");
+      }
+    </script>
   </form>
     <!-- hidden form needed for navBar -->
     <form id="Messages_btn" method="post" action="/Logged/go_to_messages" ><input type="hidden" name="mail"></form>
