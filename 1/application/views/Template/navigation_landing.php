@@ -2,7 +2,7 @@
 <div class="col-sm-12">
     <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
           
-          <img class="image_hag"  alt="hag" src="Assets/images/hag.png">    
+          <img class="image_hag"  alt="hag" src=<?= base_url ("Assets/images/hag.png" )?> >    
           
 
        <div class="login_navigation col-sm-6 "> 
