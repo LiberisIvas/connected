@@ -33,7 +33,7 @@
 		<h2 class="welcome_text"> where you connect and make your projects real</h2> <br><br><br><br><br><br><br>
 
      <form method="POST" action="<?= base_url('Login'); ?>">
-    	 <button type="submit" name="action" class="submit_button" value="register">Create your account</button>
+    	 <button type="submit" name="action" class="btn-primary well-sm" value="register">Create your account</button>
      </form>
 </div>
 

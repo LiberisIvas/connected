@@ -58,7 +58,7 @@
 					</div>
 					
 				</div>
-					<input class="btn_register form-group" type="submit" name="action" value="register">				
+					<input class="btn-primary form-group" type="submit" name="action" value="register">				
 			</div>						
 				
 				</form> 
