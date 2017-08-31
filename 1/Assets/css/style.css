@@ -224,7 +224,7 @@ margin: auto;
 }
 
 
-.head input {
+#head input {
   background: url("/Assets/images/sel/head.jpg") no-repeat scroll 0 0 transparent !important;
   cursor: pointer;
   font-weight: bold;
@@ -237,7 +237,7 @@ margin: auto;
   color: white !important;
 }
 
-.hand input {
+#hand input {
   background: url("/Assets/images/sel/hand.jpg") no-repeat scroll 0 0 transparent !important;
   text-shadow: 2px 5px 10px green;
   color: white !important;
@@ -250,7 +250,7 @@ margin: auto;
   max-width: 100%;
 }
 
-.ear input {
+#ear input {
   background: url("/Assets/images/sel/ears.jpg") no-repeat scroll 0 0 transparent !important;
   text-shadow: 2px 5px 10px green;
   color: white !important;
@@ -261,7 +261,7 @@ margin: auto;
   padding-bottom: 2px;
 }
 
-.eye input {
+#eye input {
   background: url("/Assets/images/sel/eye.jpg") no-repeat scroll 0 0 transparent !important;
   text-shadow: 2px 5px 10px green;
   color: white !important;
@@ -273,7 +273,7 @@ margin: auto;
   width: 75px;
 }
 
-.body input {
+#body input {
   background: url("/Assets/images/sel/test.jpg") no-repeat scroll 0 0 transparent !important;
   text-shadow: 2px 5px 10px green;
   color: white !important;
@@ -285,7 +285,7 @@ margin: auto;
   width: 75px;
 }
 
-.other input {
+#other input {
   background: url("/Assets/images/sel/other.jpg") no-repeat scroll 0 0 transparent !important;
   text-shadow: 2px 5px 10px green;
   color: white !important;
@@ -343,6 +343,7 @@ background-color: #E4E5E4 ;
   font-size: 50px;
   text-align: left;
 }
+<<<<<<< HEAD
 .user_class{
   font-weight: bold;
   text-shadow: 2px 5px 30px green;
@@ -380,3 +381,5 @@ background-color: #E4E5E4 ;
     50% { opacity: 0.0; }
     100% { opacity: 1.0; }
 }
+=======
+>>>>>>> bd9f0372bfe86e02be92f5bb2f11dfa884b46c72
