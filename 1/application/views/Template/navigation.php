@@ -2,13 +2,13 @@
     redirect();
 } ?>
 
-<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+<nav class="navbar navbar-toggleable-md navbar-light bg-faded row">
   <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <a href="#"><img class="image_hag"  alt="hag" src="Assets/images/hag.png"/></a>
-  <div class="collapse navbar-collapse" id="navbarNavDropdown">
-    <ul class="navbar-nav">
+  <a href="#"><img class="image_hag col-sm-6"  alt="hag" src="Assets/images/hag.png"/></a>
+  <div class="navbar-collapse ">
+    <ul class="navbar-nav col-sm-6 text-right">
       <li class="nav-item active">
         <a class="nav-link" href="Loggedout">Logout <span class="sr-only">(current)</span></a>
       </li>
