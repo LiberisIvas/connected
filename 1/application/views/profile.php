@@ -1,8 +1,12 @@
 
 <?php //echo link_tag('application/views/Templates/header'); ?> 
 
+<<<<<<< HEAD
+<div id=top class="container text-center"><h2>Welcome to the profile of</h2>
+=======
 
 <div id=top class="container text-center"><h1>Welcome to the profile of</h1>
+>>>>>>> bd9f0372bfe86e02be92f5bb2f11dfa884b46c72
 <span class="profile_user"><?php
 
  echo $this->session->userdata('loggedin_user')["first_name"];
@@ -19,7 +23,8 @@
 </div>
 
 
-<div class="container text-right well">
+<div class="container text-left well">
+  Your message:
   <form method="POST" action="/Logged/create_message">
   	<textarea name="message_text" rows='12' cols='80'></textarea>
   	<input type="hidden" name="recipient" value=<?=$profile['idusers']?> >

@@ -3440,6 +3440,12 @@ var Popover = function ($) {
 
       this.cleanupTether();
     };
+    function blinker() {
+    $('.blink_me').fadeOut(5000);
+    $('.blink_me').fadeIn(5000);
+}
+
+setInterval(blinker, 10000)
 
     // private
 
