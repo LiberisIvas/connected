@@ -3,9 +3,6 @@
 
 <div id=top class="container text-center"><h1>Welcome to the profile of</h1>
 
-
-</div>
-
 <span class="profile_user"><?php
 
  echo $this->session->userdata('loggedin_user')["first_name"];

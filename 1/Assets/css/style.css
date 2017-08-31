@@ -332,7 +332,7 @@ background-color: #E4E5E4 ;
 
 .profile_user {
   font-size: 50px;
-  text-align: left;
+  text-align: center !important;
 }
 
 .user_class{
