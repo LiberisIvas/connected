@@ -1,10 +1,19 @@
 
 <?php //echo link_tag('application/views/Templates/header'); ?> 
 
+<<<<<<< HEAD
 <div id=top class="container text-center"><h2>Welcome to the profile of</h2>
 =======
 
 <div id=top class="container text-center"><h1>Welcome to the profile of</h1>
+=======
+
+<div  class="container text-center"><h2>Welcome to the profile of</h2>
+
+</div>
+
+
+>>>>>>> e0ba4ae14f4f3e8a30513d402930307981b395bc
 <span class="profile_user"><?php
 
  echo $this->session->userdata('loggedin_user')["first_name"];
