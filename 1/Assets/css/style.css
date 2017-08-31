@@ -214,7 +214,7 @@ body {
 
 
 #head input {
-  background: url("/Assets/images/sel/b1.jpg") no-repeat scroll 0 0 transparent !important;
+  background: url("/Assets/images/sel/head.jpg") no-repeat scroll 0 0 transparent !important;
   color: #000000 !important;
   cursor: pointer;
   font-weight: bold;
@@ -225,7 +225,7 @@ body {
 }
 
 .hand input {
-  background: url("/Assets/images/sel/b4.jpg") no-repeat scroll 0 0 transparent !important;
+  background: url("/Assets/images/sel/hand.jpg") no-repeat scroll 0 0 transparent !important;
   color: #000000 !important;
   cursor: pointer;
   font-weight: bold;
@@ -236,7 +236,7 @@ body {
 }
 
 #ear input {
-  background: url("/Assets/images/sel/b6.jpg") no-repeat scroll 0 0 transparent !important;
+  background: url("/Assets/images/sel/ears.jpg") no-repeat scroll 0 0 transparent !important;
   color: #000000 !important;
   cursor: pointer;
   /*max-width: 100%;*/
@@ -248,7 +248,7 @@ body {
 }
 
 #eye input {
-  background: url("/Assets/images/sel/b2.jpg") no-repeat scroll 0 0 transparent !important;
+  background: url("/Assets/images/sel/eye.jpg") no-repeat scroll 0 0 transparent !important;
   color: #000000 !important;
   cursor: pointer;
   font-weight: bold;
@@ -258,7 +258,7 @@ body {
 }
 
 #body input {
-  background: url("/Assets/images/sel/b5.jpg") no-repeat scroll 0 0 transparent !important;
+  background: url("/Assets/images/sel/test.jpg") no-repeat scroll 0 0 transparent !important;
   color: #000000 !important;
   cursor: pointer;
   font-weight: bold;
@@ -268,7 +268,7 @@ body {
 }
 
 #other input {
-  background: url("/Assets/images/sel/b6.jpg") no-repeat scroll 0 0 transparent !important;
+  background: url("/Assets/images/sel/other.jpg") no-repeat scroll 0 0 transparent !important;
   color: #000000 !important;
   cursor: pointer;
   font-weight: bold;
