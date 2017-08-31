@@ -1,7 +1,7 @@
 <?php echo link_tag('Assets/css/style.css'); ?> 
 <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
       
-      <a class="navbar-brand bg-faded" href="/">ROOT WITH</a> <!-- <img class="image_screw"  alt="screw" src="Assets/images/screw.png">     -->
+      <a class="navbar-brand bg-faded" href="/">HaG</a> <!-- <img class="image_screw"  alt="screw" src="Assets/images/screw.png">     -->
       
 
    <div class="login_navigation col-sm-6 push-4">
