@@ -30,7 +30,8 @@
 
 		<h1 class="welcome_text">WELCOME TO CREATIVE COMMUNITY</h1> <br>
 		<h1 class="welcome_text">Hunting and Gathering</h1>
-		<h2 class="welcome_text"> where you connect and make your projects real</h2> <br><br><br><br><br><br><br>
+		<h2 class="welcome_text"> manifest your ideas with others</h2> 
+		<h3 class="welcome_text"> make your projects happen</h3> <br><br><br><br><br><br><br>
 
      <form method="POST" action="<?= base_url('Login'); ?>">
     	 <button type="submit" name="action" class="btn-primary well-sm" value="register">Create your account</button>
@@ -44,31 +45,31 @@
   <!-- Indicators -->
    <!-- Wrapper for slides -->
   <div class="carousel-inner text-center ">
-    <div class="item active text-center ">
+    <div class="item active pav">
       <img src="Assets/images/sel/b1.jpg" alt="picture">
     	</div>
 
-    <div class="item">
+    <div class="item pav">
       <img src="Assets/images/sel/b2.jpg" alt="picture">
     	</div>
 
-    <div class="item">
+    <div class="item pav">
       <img src="Assets/images/sel/b3.jpg" alt="picture">
     	</div>
 
-    <div class="item">
+    <div class="item pav">
        <img src="Assets/images/sel/b4.jpg" alt="picture">
     	</div>
 
-    <div class="item">
+    <div class="item pav">
       <img src="Assets/images/sel/b5.jpg" alt="picture">
     	</div>
 
-    <div class="item">
+    <div class="item pav">
       <img src="Assets/images/sel/b6.jpg" alt="picture">
     	</div>
 
-    <div class="item">
+    <div class="item pav">
       <img src="Assets/images/sel/b7.jpg" alt="picture">
     	</div>
   </div>
