@@ -35,12 +35,12 @@
 						<div class="row">	
 								
 						<select name="category" class="col-sm-4 form-control">
-							<option value="heads">Head</option>
-							<option value="hands">Hand</option>
-							<option value="eyes">Eye</option>
-							<option value="ears">Ear</option>
-							<option value="body">Body</option>
-							<option value="others">Other</option>
+							<option value="Heads">Head</option>
+							<option value="Hands">Hand</option>
+							<option value="Eyes">Eye</option>
+							<option value="Ears">Ear</option>
+							<option value="Body">Body</option>
+							<option value="Others">Other</option>
 						</select>**Please choose which side is your gift**
 						</div><br>
 							

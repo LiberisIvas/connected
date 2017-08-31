@@ -129,3 +129,11 @@ text-align: right;
   border-color: black;
   border: solid;
 }
+#top {
+  background-color: #e6b800;
+  width:100%;
+  text-align: center;
+}
+body {
+  background-color: #ebebe0 !important
+}

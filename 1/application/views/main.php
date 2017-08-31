@@ -1,7 +1,7 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 // var_dump($this->session->all_userdata());
 ?>
-<div class="container text-center" >
+<div class="container text-center">
 <hr>
 	<?php
 		// var_dump($this->session->all_userdata());
