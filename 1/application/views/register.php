@@ -41,7 +41,7 @@
 							<option value="Ears">Ear</option>
 							<option value="Body">Body</option>
 							<option value="Others">Other</option>
-						</select>**Please choose which side is your gift**
+						</select> **Please choose which side is your gift**
 						</div><br>
 							
 													

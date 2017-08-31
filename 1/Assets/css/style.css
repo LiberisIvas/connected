@@ -97,6 +97,7 @@ body {
   display: inline-block;
   text-align: left;
   position: static;
+  margin-right: 200px;
 }
 .form-control2 {
   display: block;
@@ -343,7 +344,7 @@ background-color: #E4E5E4 ;
   font-size: 50px;
   text-align: left;
 }
-<<<<<<< HEAD
+
 .user_class{
   font-weight: bold;
   text-shadow: 2px 5px 30px green;
@@ -381,5 +382,4 @@ background-color: #E4E5E4 ;
     50% { opacity: 0.0; }
     100% { opacity: 1.0; }
 }
-=======
->>>>>>> bd9f0372bfe86e02be92f5bb2f11dfa884b46c72
+
