@@ -7,6 +7,9 @@ body {
   padding-top: 20px;
   padding-bottom: 20px;
   background-color: white;
+  background-color: white !important;
+  font-family: "Comic Sans MS", cursive, sans-serif!important;
+
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -167,10 +170,7 @@ margin: auto;
   text-align: center;
 }
 
-body {
-  background-color: white !important;
-  font-family: "Comic Sans MS", cursive, sans-serif!important;
-}
+
 
 
 .btn_register {
