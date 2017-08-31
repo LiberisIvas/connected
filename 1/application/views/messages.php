@@ -1,4 +1,5 @@
-<h2 class="welcome">Welcome, <?= $this->session->userdata('loggedin_user')["first_name"]  ?></h2>
+<div class="message_container container">
+<h2 class="welcome">Post Box of: <?= $this->session->userdata('loggedin_user')["first_name"]  ?></h2>
 <?php 
 
 
@@ -8,7 +9,7 @@
 
 
 <div class="in_out_box"> 
-	<h4>inbox</h4>
+	<h4 class="messagebox_color">Inbox</h4>
 	<?php 
  	
 	foreach ($inbox as $key => $value) {
@@ -21,7 +22,7 @@
 
 
 <div class="in_out_box"> <!-- outbox -->
-	<h4>outbox</h4>
+	<h4 class="messagebox_color">Outbox</h4>
 	<?php 
  	
 	foreach ($outbox as $key => $value) {
@@ -35,6 +36,6 @@
 <!-- hidden form needed for navBar -->
 	<form id="Messages_btn" method="post" action="/Logged/go_to_messages" ><input type="hidden" name="mail"></form>
   <form id="profile" method='POST' action='/Logged/show_profile'><input type="hidden" name="view_profile" value="<?= $this->session->userdata('loggedin_user')['idusers']?>"></form>
-
+</div>
     
     <!-- End of hidden form needed for navBar -->

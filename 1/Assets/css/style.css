@@ -285,3 +285,12 @@ margin: auto;
   text-shadow: 2px 5px 10px green;
   color: white;
 }
+.message_container {
+  text-align: center;
+}
+.messagebox_color {
+  background-color:#A3DF9D;
+  background-blend-mode: color-burn;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
