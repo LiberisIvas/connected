@@ -82,7 +82,7 @@ class Login extends CI_Controller{
 
 	public function check_register(){
 
-		
+		// die("meeeeeeeeeeeeeeee");
 
 		$this->load->library('form_validation');
 		$this->form_validation->set_rules('email', 'email', 'xss_clean|trim|required|valid_email|is_unique[users.email]');
@@ -114,6 +114,18 @@ class Login extends CI_Controller{
 		}
 		else
 			{
+			// $config['upload_path']   = './uploads/';
+		 //    $config['allowed_types'] = 'gif|jpg|png';
+		 //    $config['max_size']      = "100000";
+		 //    $config['max_width']  = '10024';
+			// $config['max_height']  = '7680';
+
+		 //    $this->load->library('upload', $config);
+		    
+		 //    $data=array('upload_data'=>$this->upload->data());
+		 //     var_dump($data);
+		 //    die();	
+
 		     $values = array(
         	'first_name'=> $this->input->post('first_name', true), 
             'last_name'=>$this->input->post('last_name', true),
