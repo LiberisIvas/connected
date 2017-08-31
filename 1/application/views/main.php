@@ -2,14 +2,13 @@
 // var_dump($this->session->all_userdata());
 ?>
 
-<<<<<<< HEAD
+
 <div class="text-center" >
-=======
 <div class="container text-center">
 
 <div class="container text-center" >
 
->>>>>>> a2ad4a9727677ff7fd31bb3a8fa024281dd562f5
+
 <hr>
 	<?php
 		// var_dump($this->session->all_userdata());
@@ -34,14 +33,14 @@
 		<h2 class="welcome_text"> where you connect and make your projects real</h2> <br><br><br><br><br><br><br>
 
      <form method="POST" action="<?= base_url('Login'); ?>">
-    	 <button type="submit" name="action" value="register">Create your account</button>
+    	 <button type="submit" name="action" class="submit_button" value="register">Create your account</button>
      </form>
 </div>
 
 
   <!-- <div class="karusele row vertical-center-row"> -->
     <!-- CAROUSSELLE -->
- <div id="myCarousel" class="carousel slide container well" data-ride="carousel">
+ <div id="myCarousel" class="carousel slide container " data-ride="carousel">
   <!-- Indicators -->
    <!-- Wrapper for slides -->
   <div class="carousel-inner text-center ">
@@ -75,14 +74,7 @@
   </div>
 
   <!-- Left and right controls -->
-  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-    
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#myCarousel" data-slide="next">
-    
-    <span class="sr-only">Next</span>
-  </a>
+  
 </div>
 </div>
 </div>

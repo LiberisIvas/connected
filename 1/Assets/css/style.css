@@ -6,6 +6,7 @@
 body {
   padding-top: 20px;
   padding-bottom: 20px;
+  background-color: white;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -133,15 +134,21 @@ margin: auto;
 }
 #myCarousel {
   z-index: -10;
-  width: 750px;
-  border: solid;
+ /* width: 100%;
+  height: 60%;*/
+  width: 100%;
+  max-width: 1000px;
+  max-height: 600px;
   text-align: center;
+
 } 
 .carousel-inner {
+
   max-width: 800px;
   max-height: 500px;
   height: 70%;
-  text-align: center; 
+  text-align: center;  
+
 }
 .in_out_box {
   width: 80%;
@@ -157,7 +164,7 @@ margin: auto;
 }
 
 body {
-  background-color: #ebebe0 !important;
+  background-color: white !important;
 }
 
 .btn_register {
@@ -166,7 +173,6 @@ body {
 .tekstas {
   position: absolute;
   text-align: center;
-<<<<<<< HEAD
 }
 
 .welcome_text {
@@ -176,6 +182,4 @@ body {
 }
 .for_all {
   }
-=======
-}
->>>>>>> a2ad4a9727677ff7fd31bb3a8fa024281dd562f5
+
