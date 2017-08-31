@@ -2,7 +2,9 @@
 <div class="container">
     <h1 class="well">Registration Form</h1> <br>
 
-				<form action="Login/check_register" method="POST">
+				<!-- <form action="Login/check_register" method="POST"> -->
+				 <?php echo form_open_multipart(base_url('Login/check_register')); ?>
+
 					<div class="col-sm-12">
 						<div class="row">
 							<div class="col-sm-6 form-group">
@@ -44,7 +46,7 @@
 						</select> **Please choose which side is your gift**
 						</div><br>
 							
-													
+						<input type="file" name="userfile" size="40" />							
 					<div class="form-group">
 
 						<div class="form-group">
