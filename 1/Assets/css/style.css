@@ -13,7 +13,7 @@ body {
 .header,
 .marketing,
 .footer {
-  padding-top: 50px !important;
+  padding-top: 100px !important;
   padding-right: 15px;
   padding-left: 15px;
 }
@@ -145,6 +145,7 @@ margin: auto;
   max-height: 600px;
   text-align: center;
 
+
 } 
 .carousel-inner {
 
@@ -152,8 +153,7 @@ margin: auto;
   max-height: 500px;
   height: 70%;
   text-align: center; 
-
-
+  
 }
 .in_out_box {
   width: 80%;
@@ -198,15 +198,20 @@ body {
   color: black !important;
   border-color: silver  !important;
   box-shadow: 10px 5px 60px silver;
+  z-index: 500 !important;
+  margin-left: 10px;
+  
 
 }
 
 .pav {
   max-height: 100% !important;
   max-width: 800px !important;
-  object-fit: contain !important;
   z-index: -50;
+  margin-left: 50px;
+  margin-right: 50px;
 }
+
 
 #head input {
   background: url("/Assets/images/sel/b1.jpg") no-repeat scroll 0 0 transparent !important;
