@@ -26,7 +26,7 @@
   	<input type="hidden" name="status" value="1">
   	<input type="hidden" name="id" value=<?= $this->session->userdata('loggedin_user')['idusers']?>  >
     <input type="hidden" name="sender_name" value=<?= $this->session->userdata('loggedin_user')['first_name']?>  >
-  	<button type="submit" >Send</button>
+  	<button type="submit" class="btn btn-success">Send</button>
   </form>
     <!-- hidden form needed for navBar -->
     <form id="Messages_btn" method="post" action="/Logged/go_to_messages" ><input type="hidden" name="mail"></form>
