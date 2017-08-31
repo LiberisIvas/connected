@@ -10,8 +10,7 @@
 
 <div class="container text-left well">
 	<?php 
-	echo $profile['first_name'] ." " . $profile['last_name'] . "<br>" . "Category: ". $profile['category']. "<br>" . "I am looking for: " . $profile['looking_for'] . "<br>" . 
-"<iframe width='420' height='315'  src={$profile['link']} ></iframe>" . "<br>" . "My Success Story: " . $profile['story'] . "<br>" ;
+	echo $profile['first_name'] ." " . $profile['last_name'] . "<br>" . "Category: ". "{$profile['category']}". "<br>" . "I am looking for: " . $profile['looking_for'] . "<br>" . $profile['link'] . "<br>" . "My Success Story: " . $profile['story'] . "<br>" ;
 
 	 ?>
 </div>
@@ -19,7 +18,7 @@
 
 <div class="container text-right well">
   <form method="POST" action="/Logged/create_message">
-  	<textarea name="message_text" rows='12' cols='90'>
+  	<textarea name="message_text" rows='12' cols='80'>
   		
   	</textarea >
   	<input type="hidden" name="recipient" value=<?=$profile['idusers']?> >
