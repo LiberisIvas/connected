@@ -10,7 +10,7 @@
                   <input type="email" name="email" placeholder="Your Email">Email
                   <input type="password" name="password" placeholder="Your Password">Password
                   <input type="hidden" name="action" value="Login">
-                  <input class="btn_log btn-primary" type="submit" name="" value="Login"> 
+                  <input class="btn_log btn-success" type="submit" name="" value="Login"> 
         </form>
       </div>
       
