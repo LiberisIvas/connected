@@ -225,7 +225,7 @@ body {
 }
 
 #hand input {
-  background: url("/Assets/images/sel/b2.jpg") no-repeat scroll 0 0 transparent !important;
+  background: url("/Assets/images/sel/b4.jpg") no-repeat scroll 0 0 transparent !important;
   color: #000000 !important;
   cursor: pointer;
   font-weight: bold;
@@ -235,17 +235,19 @@ body {
 }
 
 #ear input {
-  background: url("/Assets/images/sel/b3.jpg") no-repeat scroll 0 0 transparent !important;
+  background: url("/Assets/images/sel/b6.jpg") no-repeat scroll 0 0 transparent background-size: contain !important;
   color: #000000 !important;
   cursor: pointer;
+  /*max-width: 100%;*/
+  
   font-weight: bold;
   height: 20px;
   padding-bottom: 2px;
-  width: 75px;
+  /*width: auto;*/
 }
 
 #eye input {
-  background: url("/Assets/images/sel/b4.jpg") no-repeat scroll 0 0 transparent !important;
+  background: url("/Assets/images/sel/b2.jpg") no-repeat scroll 0 0 transparent !important;
   color: #000000 !important;
   cursor: pointer;
   font-weight: bold;
