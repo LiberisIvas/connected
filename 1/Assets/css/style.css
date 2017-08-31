@@ -167,7 +167,8 @@ margin: auto;
 #top {
   background-color: #d6d6c2;
   width:100% !important;
-  text-align: center;
+  text-align: left;
+  font-size: 16px;
 }
 
 
@@ -302,4 +303,9 @@ margin: auto;
   background-blend-mode: color-burn;
   padding-top: 3px;
   padding-bottom: 3px;
+}
+
+.profile_user {
+  font-size: 50px;
+  text-align: left;
 }

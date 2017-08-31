@@ -1,11 +1,13 @@
 
 <?php //echo link_tag('application/views/Templates/header'); ?> 
-<div id=top class="container text-center"><h1>see profile</h1>
 
-<?php
+<div id=top class="container text-center"><h1>Welcome to the profile of</h1>
+<span class="profile_user"><?php
+
  echo $this->session->userdata('loggedin_user')["first_name"];
  
   ?>
+</span>
 <hr><hr></div>
 
 <div class="container text-left well">
@@ -25,7 +27,7 @@
     <input type="hidden" name="recipient_name" value=<?=$profile['first_name']?> >
   	<input type="hidden" name="status" value="1">
   	<input type="hidden" name="id" value=<?= $this->session->userdata('loggedin_user')['idusers']?>  >
-    <input type="hidden" name="sender_name" value=<?= $this->session->userdata('loggedin_user')['first_name']?>  >
+    <input type="hidden" name="sender_name" value=<?= $this->session->userdata('loggedin_user')['first_name']?> ><br><br>
   	<button type="submit" class="btn btn-success">Send</button>
   </form>
     <!-- hidden form needed for navBar -->
