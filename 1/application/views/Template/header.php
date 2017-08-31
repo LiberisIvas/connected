@@ -29,7 +29,7 @@
 
   </head>
   <body>
-  	<div id="main_container .container-fluid">
+  	<!-- <div id="main_container"> -->
 
 
 
