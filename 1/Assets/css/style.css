@@ -172,7 +172,8 @@ margin: auto;
 #top {
   background-color: #d6d6c2;
   width:100% !important;
-  text-align: center;
+  text-align: left;
+  font-size: 16px;
 }
 
 
@@ -308,6 +309,7 @@ margin: auto;
   padding-top: 3px;
   padding-bottom: 3px;
 }
+<<<<<<< HEAD
 .from_user {
 background-color: #E4E5E4 ;
 }
@@ -336,3 +338,10 @@ background-color: #E4E5E4 ;
   border-left: none;
   background-color: white;
 }
+=======
+
+.profile_user {
+  font-size: 50px;
+  text-align: left;
+}
+>>>>>>> 6b015341310b4db9bba7d445993c88bddebaa2f6
