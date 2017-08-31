@@ -193,3 +193,63 @@ body {
   box-shadow: 10px 5px 60px silver;
 
 }
+
+#head input {
+  background: url("/Assets/images/sel/b1.jpg") no-repeat scroll 0 0 transparent !important;
+  color: #000000 !important;
+  cursor: pointer;
+  font-weight: bold;
+  height: 20px;
+  padding-bottom: 2px;
+  width: 75px;
+}
+
+#hand input {
+  background: url("/Assets/images/sel/b2.jpg") no-repeat scroll 0 0 transparent !important;
+  color: #000000 !important;
+  cursor: pointer;
+  font-weight: bold;
+  height: 20px;
+  padding-bottom: 2px;
+  width: 75px;
+}
+
+#ear input {
+  background: url("/Assets/images/sel/b3.jpg") no-repeat scroll 0 0 transparent !important;
+  color: #000000 !important;
+  cursor: pointer;
+  font-weight: bold;
+  height: 20px;
+  padding-bottom: 2px;
+  width: 75px;
+}
+
+#eye input {
+  background: url("/Assets/images/sel/b4.jpg") no-repeat scroll 0 0 transparent !important;
+  color: #000000 !important;
+  cursor: pointer;
+  font-weight: bold;
+  height: 20px;
+  padding-bottom: 2px;
+  width: 75px;
+}
+
+#body input {
+  background: url("/Assets/images/sel/b5.jpg") no-repeat scroll 0 0 transparent !important;
+  color: #000000 !important;
+  cursor: pointer;
+  font-weight: bold;
+  height: 20px;
+  padding-bottom: 2px;
+  width: 75px;
+}
+
+#other input {
+  background: url("/Assets/images/sel/b6.jpg") no-repeat scroll 0 0 transparent !important;
+  color: #000000 !important;
+  cursor: pointer;
+  font-weight: bold;
+  height: 20px;
+  padding-bottom: 2px;
+  width: 75px;
+}
