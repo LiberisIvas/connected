@@ -150,10 +150,10 @@ class Login extends CI_Controller{
 
         $this->session->unset_userdata('loggedin_user');
         $this->session->sess_destroy();
-        redirect("/Login/out");
+        redirect();
     }
 
-
+   
 
 
     public function success(){
