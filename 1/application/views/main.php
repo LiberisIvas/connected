@@ -6,7 +6,6 @@
 <div class="text-center" >
 <div class="container text-center">
 
-<div class="container text-center" >
 
 
 <hr>
