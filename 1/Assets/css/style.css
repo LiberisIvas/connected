@@ -276,3 +276,7 @@ body {
   padding-bottom: 2px;
   width: 75px;
 }
+.welcome_name {
+  text-shadow: 2px 5px 10px green;
+  color: white;
+}

@@ -26,7 +26,4 @@
 
   <body>
   	<!-- <div id="main_container"> -->
-  	<div id="main_container">
-
-  <body>
-  	<div id="main_container .container-fluid">
+  

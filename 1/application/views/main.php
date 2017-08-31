@@ -29,8 +29,8 @@
 <div class="container text-center tekstas">
 
 		<h1 class="welcome_text">WELCOME TO CREATIVE COMMUNITY</h1> <br>
-		<h1 class="welcome_text">Hunting and Gathering</h1> <br>
-		<h2 class="welcome_text"> manifest your ideas with others</h2> <br> <br>
+		<h1 class="welcome_name">Hunting And Gathering</h1> <br>
+		<h2 class="welcome_text"> manifest your ideas with others</h2> <br> 
 		<h3 class="welcome_text"> ... and make your projects happen</h3> <br><br><br><br><br><br><br>
 
      <form method="POST" action="<?= base_url('Login'); ?>">
