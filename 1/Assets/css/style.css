@@ -133,8 +133,7 @@ margin: auto;
   text-align: center;
   display: flex;
   margin: auto;
-  z-index: ;
-}
+ }
 .
 #myCarousel {
   z-index: -10;
@@ -180,6 +179,7 @@ body {
 .tekstas {
   position: absolute;
   text-align: center;
+  z-index: 100;
 }
 
 .welcome_text {
@@ -204,12 +204,17 @@ body {
 
 }
 
-.pav {
-  max-height: 100% !important;
-  max-width: 800px !important;
-  z-index: -50;
+.pav img {
+  width: 1000px;
+  max-width: 100%;
+  max-height: 100%;
+  z-index: -150 !important;
   margin-left: 50px;
   margin-right: 50px;
+  border: 10px solid transparent;
+  content: url("/Assets/images/border.png");
+
+
 }
 
 
