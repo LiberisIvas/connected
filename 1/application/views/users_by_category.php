@@ -6,7 +6,7 @@
 	<?php
 		// var_dump($all_info);
 		foreach ($all_info as $key => $value) {
-			echo $value["first_name"] . " " . $value["last_name"] . $value["looking_for"] . "<form method='POST' action='/Logged/show_profile'><button class='btn btn-success' type='submit' name='view_profile' value={$value["idusers"]}>View Profile</button></form>"
+			echo "Name: {$value['first_name']}" . " " . $value["last_name"] ."<br>". "Looking For: {$value['looking_for']}" . "<form method='POST' action='/Logged/show_profile'><button class='btn btn-success' type='submit' name='view_profile' value={$value["idusers"]}>View Profile</button></form>"
 			 ."<br>";
 		}
 		//Logged/show_profile/ into View_control to load navigation
