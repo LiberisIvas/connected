@@ -15,10 +15,10 @@
 
 <!-- <form name="action" method="Post"> -->
 </form>
-<form id="hand" action="Logged" method="Post" align="center">
+<form class="hand" action="Logged" method="Post" align="center">
 
 
-	<input class="btn-primary btn-lg" type="submit" name="act" value="Hand" style="height:110px; width:75%">
+	<input class="btn-primary btn-lg stretch" type="submit" name="act" value="Hand" style="height:110px; width:75%">
 	<input type="hidden" name="action" value="Hand"><br><br>
 </form>
 <form id="ear" action="Logged" method="Post" align="center">
