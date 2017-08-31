@@ -10,3 +10,5 @@
 1/application/controllers/Logged.php
 1/application/models/user_model.php
 1/application/views/messages.php
+*.css
+*.php

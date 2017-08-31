@@ -29,13 +29,14 @@
 
   </head>
 <<<<<<< HEAD
+  <body>
+  	<!-- <div id="main_container"> -->
+
+=======
+>>>>>>> a2ad4a9727677ff7fd31bb3a8fa024281dd562f5
+
   <body bgcolor="#d6d6c2">
   	<div id="main_container">
-=======
+
   <body>
   	<div id="main_container .container-fluid">
->>>>>>> 78f53630aa644c81cbd974f99e0808c805e54e6f
-
-
-
- 

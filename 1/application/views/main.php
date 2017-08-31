@@ -1,12 +1,15 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 // var_dump($this->session->all_userdata());
 ?>
+
 <<<<<<< HEAD
-<div class="container text-center">
+<div class="text-center" >
 =======
+<div class="container text-center">
 
 <div class="container text-center" >
->>>>>>> 78f53630aa644c81cbd974f99e0808c805e54e6f
+
+>>>>>>> a2ad4a9727677ff7fd31bb3a8fa024281dd562f5
 <hr>
 	<?php
 		// var_dump($this->session->all_userdata());
@@ -23,52 +26,52 @@
 </hr>
 </div>
 
-
+<div class="container for_all">
 <div class="container text-center tekstas">
 
-	<h1 class="welcome_text">WELCOME TO CREATIVE COMMUNITY</h1> <br>
-	<h1 class="welcome_text">Hunting and Gathering</h1>
-<h2 class="welcome_text"> where you connect and make your projects real</h2> <br><br><br><br><br><br><br>
-</form>
-      <form method="POST" action="<?= base_url('Login'); ?>">
-      <button type="submit" name="action" value="register">Create your account</button>
-       </form>
-  </div>
+		<h1 class="welcome_text">WELCOME TO CREATIVE COMMUNITY</h1> <br>
+		<h1 class="welcome_text">Hunting and Gathering</h1>
+		<h2 class="welcome_text"> where you connect and make your projects real</h2> <br><br><br><br><br><br><br>
+
+     <form method="POST" action="<?= base_url('Login'); ?>">
+    	 <button type="submit" name="action" value="register">Create your account</button>
+     </form>
+</div>
 
 
-  		<div class="karusele row vertical-center-row">
+  <!-- <div class="karusele row vertical-center-row"> -->
     <!-- CAROUSSELLE -->
- <div id="myCarousel" class="carousel slide absolute_carr" data-ride="carousel">
+ <div id="myCarousel" class="carousel slide container well" data-ride="carousel">
   <!-- Indicators -->
    <!-- Wrapper for slides -->
-  <div class="carousel-inner ">
-    <div class="item active ">
+  <div class="carousel-inner text-center ">
+    <div class="item active text-center ">
       <img src="Assets/images/sel/b1.jpg" alt="picture">
-    </div>
+    	</div>
 
     <div class="item">
       <img src="Assets/images/sel/b2.jpg" alt="picture">
-    </div>
+    	</div>
 
     <div class="item">
       <img src="Assets/images/sel/b3.jpg" alt="picture">
-    </div>
+    	</div>
 
     <div class="item">
-    <img src="Assets/images/sel/b4.jpg" alt="picture">
-    </div>
+       <img src="Assets/images/sel/b4.jpg" alt="picture">
+    	</div>
 
     <div class="item">
       <img src="Assets/images/sel/b5.jpg" alt="picture">
-    </div>
+    	</div>
 
     <div class="item">
       <img src="Assets/images/sel/b6.jpg" alt="picture">
-    </div>
+    	</div>
 
     <div class="item">
-    <img src="Assets/images/sel/b7.jpg" alt="picture">
-    </div>
+      <img src="Assets/images/sel/b7.jpg" alt="picture">
+    	</div>
   </div>
 
   <!-- Left and right controls -->
@@ -83,7 +86,6 @@
 </div>
 </div>
 </div>
-
 
  
 

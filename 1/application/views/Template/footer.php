@@ -16,11 +16,13 @@
   <script src="https://use.fontawesome.com/a42b001faa.js"></script> 
     
 
-    <div class="footer text-center">
-    	<nav class=" navbar-light bg-light  bg-faded" >
-    	<a href="#">Disclaimer</a> | <a href="#">Terms and Conditions</a> | <a href="#">Privacy Policy </a>| <a href="#">Copyright 2018</a>	
-    	</nav>
-    </div>
 
   </body>
+
+    <div class="footer text-center">
+      <nav class=" navbar-light bg-light  bg-faded" >
+      <a href="#">Disclaimer</a> | <a href="#">Terms and Conditions</a> | <a href="#">Privacy Policy </a>| <a href="#">Copyright 2018</a> 
+      </nav>
+    </div>
+  </div>
 </html>

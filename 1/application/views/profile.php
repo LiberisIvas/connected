@@ -8,7 +8,7 @@
   ?>
 <hr><hr></div>
 
-<div class="container text-left col-sm-4">
+<div class="container text-left well">
 	<?php 
 	echo $profile['first_name'] ." " . $profile['last_name'] . "<br>" . "Category: ". $profile['category']. "<br>" . "I am looking for: " . $profile['looking_for'] . "<br>" . $profile['link'] . "<br>" . "My Success Story: " . $profile['story'] . "<br>" ;
 
@@ -16,9 +16,9 @@
 </div>
 
 
-<div class="container text-right">
+<div class="container text-right well">
   <form method="POST" action="/Logged/create_message">
-  	<textarea name="message_text" rows='10' cols='90'>
+  	<textarea name="message_text" rows='12' cols='90'>
   		
   	</textarea >
   	<input type="hidden" name="recipient" value=<?=$profile['idusers']?> >
