@@ -51,7 +51,7 @@
 	<input type="hidden" name="action" value="Other"><br><br>
 	</form>
 
- <form id="Messages_btn" method="post" action="/Logged/go_to_messages" ><button class="btn-primary btn-lg" type="submit" name="mail" style="height:110px; width:99.6%" >go to mail</button></form>
+ <form id="Messages_btn" method="post" action="/Logged/go_to_messages" ><button class="btn btn-success btn-lg" type="submit" name="mail" style="height:110px; width:99.6%" >go to mail</button></form>
 
  <!-- hidden form needed for navBar -->
   <form id="profile" method='POST' action='/Logged/show_profile'><input type="hidden" name="view_profile" value="<?= $this->session->userdata('loggedin_user')['idusers']?>"></form>

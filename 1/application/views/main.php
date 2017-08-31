@@ -34,7 +34,7 @@
 		<h3 class="welcome_text"> ... and make your projects happen</h3> <br><br><br><br><br><br><br><br><br><br>
 
      <form method="POST" action="<?= base_url('Login'); ?>">
-    	 <button type="submit" name="action" class="btn-primary well-sm" value="register">Create your account</button>
+    	 <button type="submit" name="action" class="btn btn-success well-sm" value="register">Create your account</button>
      </form>
 </div>
 
