@@ -14,7 +14,7 @@
   <script type="text/javascript" src="<?= base_url('Assets/js/carousel.js'); ?>"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
   <script src="https://use.fontawesome.com/a42b001faa.js"></script> 
-    
+        <link rel="stylesheet" type="text/css" href="dist/sweetalert.css">
 
 
   </body>
@@ -25,4 +25,5 @@
       </nav>
     </div>
   </div>
+  
 </html>

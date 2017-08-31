@@ -8,6 +8,8 @@
  echo $this->session->userdata('loggedin_user')["first_name"];
  
   ?>
+  <script src="sweetalert.min.js"></script>
+    <script type="text/javascript"></script>
 </span>
 <hr><hr></div>
 
@@ -28,15 +30,15 @@
   	<input type="hidden" name="status" value="1">
   	<input type="hidden" name="id" value=<?= $this->session->userdata('loggedin_user')['idusers']?>  >
     <input type="hidden" name="sender_name" value=<?= $this->session->userdata('loggedin_user')['first_name']?> ><br><br>
+    
+  	<button type="submit" class="btn btn-success" onClick="alert()";>Send</button>
 
-  	<button type="submit" class="btn btn-success" onclick="alert1();">Send</button>
-
-    <script src="sweetalert.min.js"></script>
-    <script type="text/javascript">
-      function alert1()
+    <script>
+      function alert()
       {
         swal("good job!", "message send", "success");
       }
+
     </script>
   </form>
     <!-- hidden form needed for navBar -->
