@@ -200,13 +200,13 @@ body {
   box-shadow: 10px 5px 60px silver;
 
 }
-<<<<<<< HEAD
+
 .pav {
   max-height: 100% !important;
   max-width: 800px !important;
   object-fit: contain !important;
   z-index: -50;
-=======
+}
 
 #head input {
   background: url("/Assets/images/sel/b1.jpg") no-repeat scroll 0 0 transparent !important;
@@ -267,5 +267,4 @@ body {
   height: 20px;
   padding-bottom: 2px;
   width: 75px;
->>>>>>> bcb41432149849daadf89c84b9c6c7bfb5c09073
 }
