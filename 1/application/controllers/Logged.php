@@ -100,7 +100,15 @@ class Logged extends CI_Controller{
 			redirect("/Logged/go_to_messages"); 
 
 	}
-	
+	public function search_for (){
+			$chosen= $this->input->post('search');
+			$this->load->model("user_model");
+			$info['results1']=$this->user_model->search($chosen);
+			$this->load->view("Template/header");
+			$this->load->view("Template/navigation");
+			$this->load->view("search_results",$info);
+			$this->load->view("Template/footer");
+	}
 
 
 

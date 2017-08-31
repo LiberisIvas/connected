@@ -57,12 +57,15 @@ class user_model extends CI_Model {
     public function delete_message ($message){
         $this->db->set('status', "2"); //value that used to update column  
         $this->db->where('id_message', $message); //which row want to upgrade  
-        $this->db->update('messages');  //table name  
-        // $this->db->where('id_message',$message);
-        // $this->db->update('messages','2');
+        $this->db->update('messages');  
 
     }
+    public function search ($check){
+        // return $this->db->query( "SELECT * FROM users WHERE first_name like  ? ",array($check))->result_array();
+        return $this->db->select('*')->from('users')
+       ->where("first_name LIKE '%$check%' OR last_name LIKE '%$check%'")->get()->result_array();
 
+    }
 
 
 }
