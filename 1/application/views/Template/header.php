@@ -1,9 +1,11 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <title>Hunting and Gathering</title>
   
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -23,10 +25,16 @@
     <link rel="stylesheet" type="text/css" href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css"> 
     
     
+    
 
   </head>
+<<<<<<< HEAD
   <body bgcolor="#d6d6c2">
   	<div id="main_container">
+=======
+  <body>
+  	<div id="main_container .container-fluid">
+>>>>>>> 78f53630aa644c81cbd974f99e0808c805e54e6f
 
 
 

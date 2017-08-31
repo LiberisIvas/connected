@@ -53,12 +53,12 @@
 						</div>
 
 						<label>Story</label>
-						<textarea name="story" cols="82" rows="4" placeholder="Enter your story here.." wrap="soft"></textarea>
+						<textarea name="story" cols="85" rows="4" placeholder="Enter your story here.." wrap="soft"></textarea>
 
 					</div>
 					
 				</div>
-					<input class="btn_register" type="submit" name="action" value="register">				
+					<input class="btn_register form-group" type="submit" name="action" value="register">				
 			</div>						
 				
 				</form> 
