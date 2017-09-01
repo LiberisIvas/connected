@@ -31,15 +31,14 @@
   	<input type="hidden" name="id" value=<?= $this->session->userdata('loggedin_user')['idusers']?>  >
     <input type="hidden" name="sender_name" value=<?= $this->session->userdata('loggedin_user')['first_name']?> ><br><br>
     
-  	<button type="submit" class="btn btn-success" onClick="alert()";>Send</button>
+  	<button type="submit" class="btn btn-success" onclick="myFunction()">Send</button>
 
-    <script>
-      function alert()
-      {
-        swal("good job!", "message send", "success");
-      }
+  <script>
+    function myFunction() {
+    alert("Message has been deliverd!");
+  }
+  </script>
 
-    </script>
   </form>
     <!-- hidden form needed for navBar -->
     <form id="Messages_btn" method="post" action="/Logged/go_to_messages" ><input type="hidden" name="mail"></form>
