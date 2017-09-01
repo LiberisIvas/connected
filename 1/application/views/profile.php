@@ -30,7 +30,7 @@
   	<input type="hidden" name="status" value="1">
   	<input type="hidden" name="id" value=<?= $this->session->userdata('loggedin_user')['idusers']?>  >
     <input type="hidden" name="sender_name" value=<?= $this->session->userdata('loggedin_user')['first_name']?> ><br><br>
-    <div class="button_sent" align="right">
+    <div class="button_sent" align="left">
   	<button type="submit" class="btn btn-success" align="right">Send</button>
 
   <!--onclick="myFunction()">
