@@ -146,6 +146,11 @@ p {
   -ms-flex-align: right;
   align-items: right;
 }
+
+.button_sent{
+  margin-right: 26px;
+}
+
 .login_navigation {
 
   display: inline-block;
