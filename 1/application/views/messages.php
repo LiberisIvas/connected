@@ -1,5 +1,5 @@
 <div class="message_container container">
-<h3 class="welcome">Post Box of: <span class="post_box_user_welcome"> <?= $this->session->userdata('loggedin_user')["first_name"]  ?></span></h3>
+<h3 class="welcome">Mail Box of: <span class="post_box_user_welcome"> <?= $this->session->userdata('loggedin_user')["first_name"]  ?></span></h3>
 <?php 
 
 

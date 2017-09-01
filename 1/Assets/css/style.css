@@ -13,7 +13,6 @@ body {
   background-color: white !important;
   width: 100% !important;
 
-
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -90,6 +89,7 @@ body {
   .jumbotron {
     border-bottom: 0;
   }
+
 }
 .image_hag {
   height: 90px;
@@ -99,6 +99,7 @@ body {
   position: static;
   margin-right: 200px;
 }
+
 .form-control2 {
   display: block;
   width: 100%;
@@ -119,30 +120,29 @@ body {
   text-align: start;
   }
   textarea {
-    resize: none;
+  resize: none;
   }
 
 .form-inline2{
-    display: inline-block;
+  display: inline-block;
   -webkit-box-align: right;
   -webkit-align-items: right;
-      -ms-flex-align: right;
-  
-
-          align-items: right;
+  -ms-flex-align: right;
+  align-items: right;
 }
 .login_navigation {
 
-display: inline-block;
-text-align: right;
-margin: auto;
+  display: inline-block;
+  text-align: right;
+  margin: auto;
 }
+
 .karusele {
   text-align: center;
   display: flex;
   margin: auto;
  }
-.
+
 #myCarousel {
   z-index: -10;
  /* width: 100%;
@@ -151,7 +151,6 @@ margin: auto;
   max-width: 1000px;
   max-height: 600px;
   text-align: center;
-
 
 } 
 .carousel-inner {
@@ -167,12 +166,12 @@ margin: auto;
   height: auto;
   border-color: black;
   border: solid;
-
 }
 
 .btn_register {
   margin-left: 10px;
 }
+
 .tekstas {
   position: absolute;
   text-align: center;
@@ -188,7 +187,7 @@ margin: auto;
 .for_all {
   height: 500px;
   position: static;
-  }
+}
 
 .btn-primary {
   background-color: silver !important;
@@ -197,8 +196,6 @@ margin: auto;
   box-shadow: 2px 5px 10px silver;
   z-index: 500 !important;
   margin-left: 10px;
-  
-
 }
 
 .pav img {
@@ -209,9 +206,6 @@ margin: auto;
   margin-left: 50px;
   margin-right: 50px;
   border: 10px solid transparent;
-  
-
-
 }
 
 
@@ -339,6 +333,7 @@ background-color: #E4E5E4 ;
   font-weight: bold;
   text-shadow: 2px 5px 30px green;
 }
+
 .blink_me {
     -webkit-animation-name: blinker;
     -webkit-animation-duration: 20s;
@@ -355,6 +350,7 @@ background-color: #E4E5E4 ;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
+
 @-moz-keyframes blinker {  
     0% { opacity: 1.0; }
     50% { opacity: 0.0; }
@@ -372,4 +368,3 @@ background-color: #E4E5E4 ;
     50% { opacity: 0.0; }
     100% { opacity: 1.0; }
 }
-
