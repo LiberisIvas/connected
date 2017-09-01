@@ -8,8 +8,7 @@
  echo $this->session->userdata('loggedin_user')["first_name"];
  
   ?>
-  <script src="sweetalert.min.js"></script>
-    <script type="text/javascript"></script>
+  
 </span>
 <hr><hr></div>
 
