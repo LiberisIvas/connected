@@ -46,7 +46,7 @@
 						</select> **Please choose which side is your gift**
 						</div><br>
 							
-						<input type="file" name="userfile" size="40" />							
+						<input type="file" name="userfile"  enctype="multipart/form-data" />							
 					<div class="form-group">
 
 						<div class="form-group">
