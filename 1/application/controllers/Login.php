@@ -121,7 +121,7 @@ class Login extends CI_Controller{
 			// $config['max_height']  = '7680';
 
 		 //    $this->load->library('upload', $config);
-		    
+		 //    $this->upload->data();
 		 //    $data=array('upload_data'=>$this->upload->data());
 		 //     var_dump($data);
 		 //    die();	
