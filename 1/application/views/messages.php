@@ -14,7 +14,7 @@
 	<?php 
  	
 	foreach ($inbox as $key => $value) {
-	  	echo  "<p class='from_user'> From: <span class='user_span'>{$value['sender_name']}</p> <br> " . $value['text_message'] . "<form method='POST' action='/Logged/show_profile'><button class='btn btn-success' name='view_profile' value= {$value['id_user']}>Reply</button></form>" . "<form method='POST' action='/Logged/delete_message'><button class='btn btn-success' name='delete' value={$value['id_message']}>DELETE</button></form>" . "<br>";
+	  	echo  "<p class='from_user'> From: <span class='user_span'>{$value['sender_name']}</p> <br> <p class='from_user'>Sent at: {$value['created_at']} </p><br>" . $value['text_message'] . "<form method='POST' action='/Logged/show_profile'><button class='btn btn-success' name='view_profile' value= {$value['id_user']}>Reply</button></form>" . "<form method='POST' action='/Logged/delete_message'><button class='btn btn-success' name='delete' value={$value['id_message']}>DELETE</button></form>" . "<br>";
 	  } ;
 
 	 ?>
@@ -28,7 +28,7 @@
 	<?php 
  	
 	foreach ($outbox as $key => $value) {
-	  	echo "<p class=from_user> Sent to: <span class='user_span'>{$value['recipient_name']} </span></p> <br><div class='red_line well'>". $value['text_message'] . "</div><br><br>";
+	  	echo "<p class=from_user> Sent to: <span class='user_span'>{$value['recipient_name']} </span></p> <br><p class='from_user'>Sent at: {$value['created_at']} </p><br> <div class='red_line well'>". $value['text_message'] . "</div><br><br>";
 	  }  ;
 
 	 ?>
