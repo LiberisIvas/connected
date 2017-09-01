@@ -31,8 +31,8 @@
   	<input type="hidden" name="id" value=<?= $this->session->userdata('loggedin_user')['idusers']?>  >
     <input type="hidden" name="sender_name" value=<?= $this->session->userdata('loggedin_user')['first_name']?> ><br><br>
     
-  	<!-- <button type="submit" class="btn btn-success" onclick="myFunction()">Send</button>
-
+  	<button type="submit" class="btn btn-success" >Send</button>
+  <!--onclick="myFunction()">
   <script>
     function myFunction() {
     alert("Message has been deliverd!");
