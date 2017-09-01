@@ -10,10 +10,10 @@
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
     <ul class="navbar-nav">
       <li class="nav-item active">
-        <a class="nav-link col-sm-4 form-group" href=<?= base_url("Loggedout") ?>>Logout <span class="sr-only">(current)</span></a>
+        <a class="nav-link col-sm-4 form-group" href=<?= base_url("Loggedout") ?>><span class="text-danger">Logout</span> </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#" onclick="document.getElementById('Messages_btn').submit();">Messages</a>
+        <a class="nav-link" href="#" onclick="document.getElementById('Messages_btn').submit();"><span class="text-success">Messages</span></a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#" onclick="document.getElementById('profile').submit();">My Profile</a>
@@ -36,7 +36,7 @@
     </ul>
      <form action="/Logged/search_for" method="POST" class="form-inline col-sm-8 form-nav navbar-form navbar-right";">
     <input class="form-control" name="search" type="text" placeholder="Search">
-    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
   </form>
   </div>
 
