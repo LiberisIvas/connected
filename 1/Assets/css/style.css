@@ -36,6 +36,17 @@ body {
   line-height: 40px;
 }
 
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+p {  
+  margin-top: 0.2em; margin-bottom: -0.8em !important; 
+}
+
 /* Customize container */
 @media (min-width: 768px) {
   .container {
@@ -135,6 +146,11 @@ body {
   -ms-flex-align: right;
   align-items: right;
 }
+
+.button_sent{
+  margin-right: 26px;
+}
+
 .login_navigation {
 
   display: inline-block;
