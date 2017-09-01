@@ -11,6 +11,7 @@ body {
   background: url("/Assets/images/sel/bg.png") !important;
   background-size: 100% !important;
   width: 100% !important;
+ 
 
 }
 
@@ -35,6 +36,7 @@ body {
   line-height: 40px;
 }
 
+<<<<<<< HEAD
 /* Custom page footer */
 .footer {
   padding-top: 19px;
@@ -46,6 +48,7 @@ p {
   margin-top: 0.2em; margin-bottom: -0.8em !important; 
 }
 
+=======
 /* Customize container */
 @media (min-width: 768px) {
   .container {
