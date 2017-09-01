@@ -1,10 +1,10 @@
 
 <div class="container">
+	<br>
     <h1 class="well">Registration Form</h1> <br>
 
 				<!-- <form action="Login/check_register" method="POST"> -->
 				 <?php echo form_open_multipart(base_url('Login/check_register')); ?>
-
 					<div class="col-sm-12">
 						<div class="row">
 							<div class="col-sm-6 form-group">
