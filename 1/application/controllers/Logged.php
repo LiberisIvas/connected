@@ -42,7 +42,7 @@ class Logged extends CI_Controller{
 
 	public function create_message (){
 			$this->load->library('form_validation');
-			$this->form_validation->set_rules('message_text', 'Massege', 'xss_clean|trim|required|min_length[3]');
+			$this->form_validation->set_rules('message_text', 'Massege', 'xss_clean|trim|required|min_length[2]');
 
 
 			if ($this->form_validation->run() == FALSE)
@@ -71,7 +71,7 @@ class Logged extends CI_Controller{
 		     $this->user_model->add_message($values);
 		     $this->session->set_userdata('sucessmsg_2', 'Your Message has been sent');
 		     
-		      $this->load->view("message_sent");
+		     redirect("/Logged/go_to_messages");
 			
 
 
