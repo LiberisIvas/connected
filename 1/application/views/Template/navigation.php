@@ -2,7 +2,7 @@
     redirect();
 } ?>
 
-<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+<nav class="navbar navbar-toggleable-md navbar-light bg-faded ">
   <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -16,11 +16,11 @@
         <a class="nav-link" href="#" onclick="document.getElementById('Messages_btn').submit();"><span class="text-success">Messages</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#" onclick="document.getElementById('profile').submit();">My Profile</a>
+        <a class="nav-link" href="#" onclick="document.getElementById('profile').submit();"><span class="text-primary">My Profile</span></a>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Filter users by
+        <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="text-primary">
+          Filter users by </span>
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 
@@ -39,6 +39,8 @@
     <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
   </form>
   </div>
+
+
 
 
 </nav>

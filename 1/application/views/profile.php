@@ -14,7 +14,7 @@
 
 <div class="container text-left well">
 	<?php 
-	echo "<span class='user_span'>" . $profile['first_name'] ." " . $profile['last_name'] . "</span><br>" . "Category: ". "{$profile['category']}". "<br>" . "I am looking for: " . $profile['looking_for'] . "<br>" ."<br>" . $profile['link'] . "<br>" ."<br>" . "My Success Story: " . $profile['story'] . "<br>" ;
+	echo "<span class='user_span'>" . $profile['first_name'] ." " . $profile['last_name'] . "</span><br>" . "Category: ". "{$profile['category']}". "<br>" . "I am looking for: " . $profile['looking_for'] . "<br>" ."<br> <div class='jumbotron'>" . $profile['link'] . "</div><br>" ."<br>" . "My Success Story: " . $profile['story'] . "<br>" ;
 
 	 ?>
 </div>

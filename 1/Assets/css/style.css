@@ -229,6 +229,7 @@ body {
 
 #hand input {
   background: url("/Assets/images/sel/hand.jpg") no-repeat scroll 0 0 transparent !important;
+  opacity: 0.2;
   text-shadow: 2px 5px 10px green;
   color: white !important;
   cursor: pointer;
@@ -374,4 +375,12 @@ background-color: #E4E5E4 ;
     0% { opacity: 1.0; }
     50% { opacity: 0.0; }
     100% { opacity: 1.0; }
+}
+.user-by-cat {
+border:solid;
+border-color: #D4D1D1;
+border-width: 2px;
+margin-bottom: 20px;
+border-radius: 5%;
+padding: 10px;
 }
