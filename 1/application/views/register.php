@@ -55,7 +55,7 @@
 						</div>
 
 						<label>Story</label>
-						<textarea name="story" cols="85" rows="4" placeholder="Enter your story here.." wrap="soft"></textarea>
+						<textarea name="story" cols="79" rows="4" placeholder="Enter your story here.." wrap="soft"></textarea>
 
 					</div>
 					
