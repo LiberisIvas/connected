@@ -34,8 +34,8 @@
 
       </li>
     </ul>
-     <form action="/Logged/search_for" method="POST" class="form-inline col-sm-6 form-nav2">
-    <input class="form-control mr-sm-2 col-sm-4" name="search" type="text" placeholder="Search">
+     <form action="/Logged/search_for" method="POST" class="form-inline col-sm-8 form-nav navbar-form navbar-right";">
+    <input class="form-control" name="search" type="text" placeholder="Search">
     <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
   </form>
   </div>
