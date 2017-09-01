@@ -27,6 +27,6 @@
     <link rel="stylesheet" type="text/css" href="dist/sweetalert.css">
   </head>
 
-  <body background: url("/Assets/images/sel/bg.png");>
+  <body>
   	<!-- <div id="main_container"> -->
   

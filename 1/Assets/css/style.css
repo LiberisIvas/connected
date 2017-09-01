@@ -2,7 +2,6 @@
   margin-left: 100px;
   margin-top: 20px;
   margin-right: 100px;
-  background: url("/Assets/images/sel/bg.png") !important;
 }
 
 body {
@@ -10,6 +9,7 @@ body {
   padding-bottom: 20px;
   font-family: "Comic Sans MS", cursive, sans-serif!important;
   background: url("/Assets/images/sel/bg.png") !important;
+  background-size: 100% !important;
   width: 100% !important;
  
 
