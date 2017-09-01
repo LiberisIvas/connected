@@ -1,4 +1,4 @@
-<h1 align="center" class="user_class blink_me">H  u  n  t  i  n  g  A  n  d  G  a  t  h  e  r  i  n  g </h1>
+<h1 align="center" class="user_class welcome_name blink_me">H  u  n  t  i  n  g  A  n  d  G  a  t  h  e  r  i  n  g </h1>
 
 <?php 
 
