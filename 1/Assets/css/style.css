@@ -100,11 +100,11 @@ body {
   margin-right: 200px;
 }
 
-.form-control2 {
+.form-control {
   display: block;
   width: 100%;
-  padding: 0.5rem 0.75rem;
-  font-size: 1rem;
+  padding: 0px 12px !important;
+  font-size: 14px;
   line-height: 4;
   color: #464a4c;
   resize: none;
@@ -119,6 +119,7 @@ body {
   line-break: auto;
   text-align: start;
   }
+  
   textarea {
   resize: none;
   }
@@ -284,6 +285,8 @@ body {
 .welcome_name {
   text-shadow: 2px 5px 10px green;
   color: white;
+  font-family: "Arial", verdana, sans-serif!important;
+
 }
 .message_container {
   text-align: center;
