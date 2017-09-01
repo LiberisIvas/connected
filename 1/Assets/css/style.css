@@ -284,6 +284,8 @@ body {
 .welcome_name {
   text-shadow: 2px 5px 10px green;
   color: white;
+  font-family: "Arial", verdana, sans-serif!important;
+
 }
 .message_container {
   text-align: center;
