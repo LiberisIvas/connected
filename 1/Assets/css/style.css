@@ -11,6 +11,7 @@ body {
   font-family: "Comic Sans MS", cursive, sans-serif!important;
   background: url("/Assets/images/sel/bg.png") !important;
   width: 100% !important;
+ 
 
 }
 
@@ -34,14 +35,6 @@ body {
   margin-bottom: 0;
   line-height: 40px;
 }
-
-/* Custom page footer */
-.footer {
-  padding-top: 19px;
-  color: #777;
-  border-top: 1px solid #e5e5e5;
-}
-
 
 /* Customize container */
 @media (min-width: 768px) {
